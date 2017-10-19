@@ -50,10 +50,13 @@
 		<img src="_images/under-construction.png">
 		<div class="uc-dark">
 				<h2>Evergreen Brewery<br />&amp; Tap House</h2>
+				<!-- <p>&nbsp;</p>
+				<h3><i class="fa fa-star" aria-hidden="true"></i>&nbsp;&nbsp; Come see us at GABF! Booth X15! &nbsp;&nbsp;<i class="fa fa-star" aria-hidden="true"></i></h3> -->
 				<p>&nbsp;</p>
-				<h3><i class="fa fa-star" aria-hidden="true"></i>&nbsp;&nbsp; Come see us at GABF! Booth X15! &nbsp;&nbsp;<i class="fa fa-star" aria-hidden="true"></i></h3>
-				<p>&nbsp;</p>
-				<p>New website on the way!</p>
+				<p>Check us out on social media!</p>
+				<div class="social-links">
+					<a class="reset" href="https://www.facebook.com/evergreenbreweryandtaphouse/" target="_blank"><img src="_images/facebook.png" alt="Follow us on Facebook"></a><a class="reset" href="https://www.instagram.com/evergreenbrewerytaphouse/" target="_blank"><img src="_images/instagram.png" alt="Follow us on Instagram"></a>
+				</div>
 				<p>&nbsp;</p>
 				<p><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>&nbsp;&nbsp; Menu &amp; current beer selection below &nbsp;&nbsp;<i class="fa fa-arrow-circle-down" aria-hidden="true"></i></p>
 		</div>

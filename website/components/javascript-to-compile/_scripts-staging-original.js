@@ -295,13 +295,13 @@ $(function() {
     //     $('a[href$="#top-of-page"]').addClass('active-nav');
     // }
 
-    if ( windowpos > $('#intro').offset().top) {
+    if ( windowpos > $('#menu-container').offset().top) {
         $('nav li a').removeClass('active-nav');
-        $('a[href$="#intro"]').not('.no-active-nav').addClass('active-nav');
+        $('a[href$="#menu-container"]').not('.no-active-nav').addClass('active-nav');
     }
-    if ( windowpos > $('#instructions').offset().top) {
+    if ( windowpos > $('#food').offset().top) {
         $('nav li a').removeClass('active-nav');
-        $('a[href$="#instructions"]').addClass('active-nav');
+        $('a[href$="#food"]').addClass('active-nav');
     }
     if ( windowpos > $('#contact').offset().top) {
         $('nav li a').removeClass('active-nav');
@@ -337,6 +337,8 @@ $('a.no-default').click(function(e)
 });
 
 
+
+
 var btt = $('.back-to-top');
 
 btt.on('click', function(e) {
@@ -368,77 +370,3 @@ function overlay() {
 }
 
 
-// $('.join-now-btn').click(function() {
-//       $("#da-body").removeClass("modal-open");
-//       $(this).addClass('modal-open');
-// });
-
-// begin navigation appear on scroll                          
-$(window).scroll(function(){                          
-    if ($(this).scrollTop() > 200) {
-        $('#navigation').fadeIn(500);
-    } else {
-        $('#navigation').fadeOut(500);
-    }
-});
-// end navigation appear on scroll
-
-
-
-
-
-/* Set the width of the side navigation to 250px */
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
-
-/* Set the width of the side navigation to 0 */
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
-
-
-
-// begin - parallax
-// Create cross browser requestAnimationFrame method:
-window.requestAnimationFrame = window.requestAnimationFrame
-|| window.mozRequestAnimationFrame
-|| window.webkitRequestAnimationFrame
-|| window.msRequestAnimationFrame
-|| function(f){setTimeout(f, 1000/60)}
-
-var logo = document.getElementById('logo');
-// var toggle = document.getElementById('intro-nav-toggle');
-// var badge = document.getElementById('badge');
-// var bubble2 = document.getElementById('bubbles2')
-// var fish = document.getElementById('fish')
-
-var scrollheight =  document.body.scrollHeight // height of entire document
-var windowheight = window.innerHeight // height of browser window
-
-
-function parallaxthis(){
-  var scrolltop = window.pageYOffset // get number of pixels document has scrolled vertically
-  var scrollamount = (scrolltop / ((scrollheight-windowheight)-1110)) * 100 // get amount scrolled (in %)
-
-  // next line needs amount adjusted so that it will be out of the way when the next scene is visible so the links will be accessible and not under the scene-one layer
-  // something.style.top = -scrolltop * .0001 + 'px'; // move # at x% of scroll speed  
-  // toggle.style.top = -scrolltop * .0001 + 'px';
-  logo.style.top = -scrolltop * 1.5 + 'px';
-
-}
-
-window.addEventListener('scroll', function(){ // on page scroll
-  requestAnimationFrame(parallaxthis) // call parallaxthis() on next available screen repaint
-}, false)
-
-
-// this was triggering an error so I've commented it out.
-// was used for a horizontal parallax that's not getting used
-// anyway.
-// window.addEventListener('resize', function(){ // on window resize
-//   var scrollamount = (scrolltop / (scrollheight-windowheight)) * 100 // get amount scrolled (in %)
-//   fish.style.left = -100 + scrollamount + '%'
-// }, false)
-
-// end - parallax

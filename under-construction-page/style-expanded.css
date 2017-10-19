@@ -1666,3 +1666,41 @@ div.item-price {
   line-height: 1.3em;
   margin-top: 0.4em;
 }
+
+#intro div.social-links {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+#intro div.social-links img {
+  width: 100%;
+  max-width: 50px;
+  padding: 15px 5px;
+}
+#intro div.social-links a {
+  padding: 0px;
+  margin-right: 10px;
+  display: inline-block;
+}
+#intro div.social-links a:last-child {
+  margin-right: 0px;
+}
+
+a.reset {
+  background-color: none;
+  background: none;
+  width: auto;
+  height: auto;
+  border: none;
+}
+a.reset:hover {
+  background-color: none;
+  background: none;
+  width: auto;
+  height: auto;
+}

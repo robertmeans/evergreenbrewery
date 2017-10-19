@@ -1,6 +1,14 @@
 @import "base-setup/eric-meyer-reset";
 @import "base-setup/clearfix";
-@import "base-setup/flexslider";
+// @import "base-setup/flexslider";
+
+@import "01-base";
+@import "02-navigation";
+@import "03-intro";
+@import "04-taphunter";
+@import "05-menu";
+@import "map";
+@import "footer";
 
 @import "custom";
 
