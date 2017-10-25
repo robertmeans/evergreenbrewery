@@ -1,11 +1,11 @@
 #navigation {
-	position:fixed;
-	top:0px;
-	width:100%; 
-	height:60px; 
-	background-color:#565759;
+	position: fixed;
+	top: 0px;
+	width: 100%; 
+	height: 60px; 
+	background-color: #565759;
 	color: #FFFFFF;
-	z-index:9900;
+	z-index: 90;
 	display: none;
 	justify-content: center;
 	align-items: center;
@@ -17,63 +17,138 @@
 		top: 15px;
 		right: 40px;
 		width: 30px;
+		cursor: pointer;
 	}
 	img#nav-logo {
 		display: block;
-		z-index: 9901;
+		z-index: 100;
 		width: 67px;
 		margin: 5px auto 0px auto;
-
 	}
 }
 
+@media screen and (max-width: 880px) {
+	#navigation {
+		img#nav-toggle {
+			right: 20px;
+		}
+	}
+}	
 
-.nav-toggle {
-	cursor: pointer;
-}
-/* The side navigation menu */
-.sidenav .closebtn {
-	padding-top: 60px;
-}
 .sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    height: 100%;
+    width: 0; /* 0 width - change with JS */
+    position: fixed; 
+    z-index: 80;
     top: 0;
     left: 0;
-    background-color: #111; /* Black*/
+    background-color: #111;
     border-right: 1px solid #fff;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 120px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-}
+    overflow-x: hidden; 
+    padding-top: 120px; 
+    transition: 0.5s; /* slide in the sidenav */
+    white-space: nowrap;
+	#sidenav-wrapper {
+		position: absolute;
+		top: 70px;
+		right: 0px;
+		width: 250px; // match JS width
+		padding-left: 32px;
+		// box-sizing: border-box;
+	}
+    .closebtn {
+	    text-align: right;
+	    padding: 0px 25px 30px 0px;
+	    font-size: 36px;
+	}
+	a { 
+	    padding: 8px 8px 8px 0px;
+	    text-decoration: none;
+	    font-size: 25px;
+	    color: #818181;
+	    display: block;
+	    transition: 0.3s;
+	    &:hover {
+	    	color: #f1f1f1;
+	    }
+	}
+	a.sidenav-social-fb {
+		display: inline-block;
+		padding: 40px 8px 8px 0px;
+		margin: 0;
+		}
+	a.sidenav-social-i {
+		display: inline-block;
+		padding: 40px 8px 8px;
+		margin: 0;
+	}
+	.fb {
+		border-radius: 5px;
+	}
+	.social {
+		width: 30px;
+		transition: all .2s ease-in-out;
+		&:hover {
+			transform: scale(1.1);
+		}
 
-/* The navigation menu links */
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s
-}
+		// animation: in .2s 2 linear;
+		// &:hover {
+		// 	animation: out .2s 2 linear;
 
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover, .offcanvas a:focus{
+		// }
+	}
+}
+// begin animate social icons on hover
+// @keyframes in {
+//     0%   { transform: rotate(360deg); }
+//     100% { transform: rotate(0deg); }
+// }
+// @keyframes out {
+//     from   { transform: rotate(0deg); }
+//     to { transform: rotate(360deg);}
+// }
+// @-webkit-keyframes in {
+//     0%   { -webkit-transform: rotate(360deg); }
+//     100% { -webkit-transform: rotate(0deg); }
+// }
+// @-webkit-keyframes out {
+//     from   { -webkit-transform: rotate(0deg); }
+//     to { -webkit-transform: rotate(360deg);}
+// }
+// @-moz-keyframes in {
+//     0%   { -moz-transform: rotate(360deg); }
+//     100% { -moz-transform: rotate(0deg); }
+// }
+// @-moz-keyframes out {
+//     from   { -moz-transform: rotate(0deg); }
+//     to { -moz-transform: rotate(360deg);}
+// }
+// @-ms-keyframes in {
+//     0%   { -ms-transform: rotate(360deg); }
+//     100% { -ms-transform: rotate(0deg); }
+// }
+// @-ms-keyframes out {
+//     from   { -ms-transform: rotate(0deg); }
+//     to { -ms-transform: rotate(360deg);}
+// }
+// end animate social icons on hover
+@media screen and (max-width: 880px) {
+	.sidenav {
+		a.sidenav-social-fb {
+			padding: 40px 20px 8px 0px;
+		}	
+	}
+}
+.offcanvas a:focus{
     color: #f1f1f1;
 }
 
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav {
+    	padding-top: 15px;
+    	a {
+    		font-size: 18px;
+    	}
+    }
 }

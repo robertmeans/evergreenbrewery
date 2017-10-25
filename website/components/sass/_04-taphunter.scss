@@ -46,13 +46,16 @@ section#taphunter {
   position: relative;
 }
 section#menu-container {
-  padding: 150px 0px;
+  padding: 80px 0px;
   overflow: hidden;
 }
 @media screen and (max-width: 520px) {
   .ut-menu-standard .menu-nav div.pull-right {
     text-align: center;
     padding: 10px 0px;
+  }
+  div.header-bg-color { // empty space at top
+    display: none;
   }
   .ut-menu .menu-nav div.menu-list {
     text-align: center;

@@ -352,12 +352,13 @@ $(window).on('scroll', function () {
     height = self.height(),
     top = self.scrollTop();
 
-    if(top > (.4 * height)) {
+    // if(top > (.4 * height)) {
+    if(top > (200)) {
         if (!btt.is(':visible')) {
-          btt.show();
+          btt.fadeIn(500);
         }
       } else {
-          btt.hide();
+          btt.fadeOut(500);
         }
   }); 
 
@@ -389,7 +390,16 @@ $(window).scroll(function(){
 
 /* Set the width of the side navigation to 250px */
 function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
+    // document.getElementById("mySidenav").style.width = "250px";
+    var e = document.getElementById("mySidenav");
+    if (e.style.width == '250px')
+    {
+        e.style.width = '0px';
+    }
+    else 
+    {
+        e.style.width = '250px';
+    }
 }
 
 /* Set the width of the side navigation to 0 */
