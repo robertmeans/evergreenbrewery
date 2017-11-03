@@ -196,8 +196,8 @@ body {
     font-size: 18px;
   }
 }
-section#intro {
-  background: #100000 url(_images/evergreen-brewery-intro-bkg.jpg) no-repeat fixed;
+section#banner {
+  background: #100000 url(_images/evergreen-brewery-banner-bkg02.jpg) no-repeat fixed;
   background-size: cover;
   background-position: fixed;
   display: -ms-flexbox;
@@ -214,7 +214,7 @@ section#intro {
       justify-content: center;
   box-sizing: border-box;
 }
-section#intro img#intro-nav-toggle {
+section#banner img#banner-nav-toggle {
   position: absolute;
   top: 30px;
   right: 40px;
@@ -224,7 +224,7 @@ section#intro img#intro-nav-toggle {
   transition: all 0.3s ease;
   cursor: pointer;
 }
-section#intro img#logo {
+section#banner img#logo {
   width: 35%;
   max-width: 916px;
   position: relative;
@@ -233,17 +233,17 @@ section#intro img#logo {
 }
 
 @media screen and (max-width: 880px) {
-  section#intro {
-    background: #100000 url(_images/evergreen-brewery-intro-bkg-mobile.jpg) no-repeat fixed;
+  section#banner {
+    background: #100000 url(_images/evergreen-brewery-banner-bkg-mobile.jpg) no-repeat fixed;
     background-position: top;
     top: 0px;
     width: 100%;
     box-sizing: border-box;
   }
-  section#intro img#intro-nav-toggle {
+  section#banner img#banner-nav-toggle {
     right: 20px;
   }
-  section#intro img#logo {
+  section#banner img#logo {
     width: 80%;
     margin-top: -60px;
   }
@@ -552,9 +552,10 @@ footer p.copyright a {
   margin: 0;
   display: inline-block;
   width: auto;
+  transition: color 0.3s ease;
 }
 footer p.copyright a:hover {
-  text-decoration: underline;
+  color: #fff;
 }
 
 div#not-found {

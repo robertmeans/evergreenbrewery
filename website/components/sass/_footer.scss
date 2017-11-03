@@ -26,8 +26,9 @@ footer {
 			margin: 0;
 			display: inline-block;
 			width: auto;
+			transition: color 0.3s ease;
 			&:hover {
-				text-decoration: underline;
+				color: #fff;
 			}
 		}
 	}
