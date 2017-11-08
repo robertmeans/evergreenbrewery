@@ -284,7 +284,6 @@ div#intro h3 {
   font-family: verdana;
   color: #fff;
   display: inline-block;
-  margin: 2em 0 0.8em;
 }
 div#intro #intro-container {
   position: relative;
@@ -306,6 +305,14 @@ div#intro #intro-container img {
   margin: 0 20px 10px 0;
   border: 1px solid #fff;
   box-shadow: -6px 6px 15px -6px rgba(0, 0, 0, 0.75);
+}
+div#intro #intro-container span.follow {
+  display: inline-block;
+  background: #4267b2;
+  color: #fff;
+  padding: 8px 20px 8px 10px;
+  margin: 2em 0 1em 0;
+  border-radius: 3px;
 }
 div#intro #intro-container #facebook-container {
   float: left;
@@ -330,6 +337,9 @@ div#intro #intro-container p {
         justify-content: flex-start;
     height: auto;
     padding: 110px 2px;
+  }
+  div#intro #intro-container span.follow {
+    padding: 8px 20px 8px 20px;
   }
   div#intro .follow-fb {
     display: none;

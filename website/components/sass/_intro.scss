@@ -32,7 +32,6 @@ div#intro {
     font-family: verdana;
     color: #fff;
     display: inline-block;
-    margin: 2em 0 0.8em;
   }
   #intro-container {
     position: relative;
@@ -43,29 +42,37 @@ div#intro {
     border: 1px solid #fff;
     background: rgba(0,0,0,0.6);
     p.small-gone {
-    height: 5px;
-    margin-bottom: 0px;
-  }
+        height: 5px;
+        margin-bottom: 0px;
+      }
     img {
-      float: left;
-      width: 100%;
-      max-width: 150px;
-      margin: 0 20px 10px 0;
-      border: 1px solid #fff;
-      box-shadow: -6px 6px 15px -6px rgba(0,0,0,0.75);
-    }
+        float: left;
+        width: 100%;
+        max-width: 150px;
+        margin: 0 20px 10px 0;
+        border: 1px solid #fff;
+        box-shadow: -6px 6px 15px -6px rgba(0,0,0,0.75);
+      }
+    span.follow {
+        display: inline-block;
+        background: #4267b2;
+        color: #fff;
+        padding: 8px 20px 8px 10px;
+        margin: 2em 0 1em 0;
+        border-radius: 3px;
+      }
     #facebook-container {
-      float: left;
-      width: 100%;
-      max-width: 500px;
-      margin: 0 20px 10px 0;
-      border: 1px solid #fff;
-      box-shadow: -6px 6px 15px -6px rgba(0,0,0,0.75);
-    }
+        float: left;
+        width: 100%;
+        max-width: 500px;
+        margin: 0 20px 10px 0;
+        border: 1px solid #fff;
+        box-shadow: -6px 6px 15px -6px rgba(0,0,0,0.75);
+      }
     p {
-      margin-bottom: 1em;
-      line-height: 1.4em;
-    }
+        margin-bottom: 1em;
+        line-height: 1.4em;
+      }
   }
 }
 @media screen and (max-width: 840px) {
@@ -76,6 +83,11 @@ div#intro {
     justify-content: flex-start;
     height: auto;
     padding: 110px 2px;
+    #intro-container {
+      span.follow {
+        padding: 8px 20px 8px 20px;
+      }
+    }
     .follow-fb {
       display: none;
     }
