@@ -1,6 +1,7 @@
 <div id="mySidenav" class="sidenav">
 	<div id="sidenav-wrapper">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="#intro" onclick="closeNav()">About</a>
 		<a href="#menu-container" onclick="closeNav()">Beer Selection</a>
 		<a href="#food" onclick="closeNav()">Food</a>
 		<a href="#location" onclick="closeNav()">Find Us</a>
