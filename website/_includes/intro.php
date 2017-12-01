@@ -4,7 +4,7 @@
 	<div id="intro-container">
 
 		<div id="facebook-container">
-			<div class="fb-page" data-href="https://www.facebook.com/evergreenbreweryandtaphouse/" data-tabs="timeline, events" data-width="500px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/evergreenbreweryandtaphouse/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/evergreenbreweryandtaphouse/">Evergreen Brewery &amp; Tap House</a></blockquote></div>
+			<div class="fb-page" data-href="https://www.facebook.com/evergreenbrewery/" data-tabs="timeline, events" data-width="500px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/evergreenbreweryandtaphouse/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/evergreenbreweryandtaphouse/">Evergreen Brewery &amp; Tap House</a></blockquote></div>
 		</div><!-- #facebook-container -->
 		<p class="small-gone">&nbsp;</p>
 		<p>At Evergreen Brewery we pride ourselves in brewing the beeriest beer around. Some of our shiniest patrons loudly agree that Evergreen Brewery beers contain more beer per beer than any competition which they also note, &quot;There is none.&quot;</p>

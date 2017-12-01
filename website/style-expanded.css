@@ -410,6 +410,7 @@ section#taphunter {
 }
 
 section#menu-container {
+  background-color: #280000;
   padding: 80px 0px;
   overflow: hidden;
 }

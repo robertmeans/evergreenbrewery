@@ -5,7 +5,7 @@
 		<a href="#menu-container" onclick="closeNav()">Beer Selection</a>
 		<a href="#food" onclick="closeNav()">Food</a>
 		<a href="#location" onclick="closeNav()">Find Us</a>
-		<a class="sidenav-social-fb" href="https://www.facebook.com/evergreenbreweryandtaphouse/" target="_blank" onclick="closeNav()"><img class="social fb" src="_images/facebook.png"></a><a class="sidenav-social-i" href="https://www.instagram.com/evergreenbrewerytaphouse/" target="_blank" onclick="closeNav()"><img class="social" src="_images/instagram.png"></a>
+		<a class="sidenav-social-fb" href="https://www.facebook.com/evergreenbrewery/" target="_blank" onclick="closeNav()"><img class="social fb" src="_images/facebook.png"></a><a class="sidenav-social-i" href="https://www.instagram.com/evergreenbrewerytaphouse/" target="_blank" onclick="closeNav()"><img class="social" src="_images/instagram.png"></a>
 	</div><!-- #sidenav-wrapper -->
 </div><!-- #mySidenav -->
 <nav id="navigation">
