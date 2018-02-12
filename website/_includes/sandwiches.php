@@ -125,7 +125,7 @@
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Veg HeadT
+          Veg Head
         </div>
         <div class="dotted-line">
           &nbsp;
