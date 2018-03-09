@@ -259,8 +259,7 @@ div#intro {
   background: url(_images/intro-bkg.jpg) no-repeat fixed;
   background-size: cover;
   color: #fff;
-  padding: 110px 15px;
-  height: 100vh;
+  padding: 60px 15px;
   box-sizing: border-box;
 }
 div#intro h1 {
