@@ -12,7 +12,7 @@
           &nbsp;
         </div>
         <div class="item-price">
-          $11
+          $12
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
@@ -40,17 +40,17 @@
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Ahi Thai Noodle Salad
+          Roasted Beet Candied Walnut Salad
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $14
+          $12
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Lightly seared Ahi Tuna, glass noodles, cabbage, carrots, cucumbers and cilantro tossed in a house made Thai peanut vinaigrette
+        Fresh spinach and candied walnuts tossed in a sherry vinaigrette, topped with house roasted beets and goat cheese
       </div>
     </div><!-- .menu-item -->
 
@@ -74,17 +74,17 @@
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Romaine Wedge Salad
+          Mike's Might be Famous Green Chili
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $10
+          $9
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Romaine lettuce, tomato, bacon cheddar and house blue cheese. Served with crostini
+        Topped with cilantro and sour cream, served with tortilla
       </div>
     </div><!-- .menu-item -->
 

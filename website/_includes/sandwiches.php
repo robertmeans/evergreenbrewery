@@ -12,28 +12,28 @@
           &nbsp;
         </div>
         <div class="item-price">
-          $13
+          $14
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Slow roasted pork, smoked ham, genoa salami and melted cheese, topped with pickles, our house-made mustard and a lime juice reduction
+        Slow roasted port, smoked ham, genoa salami and melted cheese. Topped with pickles, our house made mustard, lime juice reduction, served on french bread
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Hot Italian
+          F.A.B. T.A.B.
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $12
+          $13
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Pepperoni, salami, provolone, Parmesan, tomatoes, fresh spinach, pesto mayo, pressed on rosemary ciabatta
+        Turkey roasted in our F.A.B. Lager, thick cut bacon, swiss cheese, avocado, tomato, lettuce, green onion aioli, served on sourdough
       </div>
     </div><!-- .menu-item -->
 
@@ -46,7 +46,7 @@
           &nbsp;
         </div>
         <div class="item-price">
-          $12
+          $13
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
@@ -57,17 +57,17 @@
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Tap House Club
+          Turkey Salad Sandwich
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $12
+          $11
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Thick cut bacon, turkey, avocado, cheddar cheese, tomato, lettuce, green onion aioli, served on sourdough
+        House made cranberry walnut turkey salad served on a rosemary ciabatta with lettuce and tomato
       </div>
     </div><!-- .menu-item -->
 
@@ -80,7 +80,7 @@
           &nbsp;
         </div>
         <div class="item-price">
-          $12
+          $13
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
@@ -97,7 +97,7 @@
           &nbsp;
         </div>
         <div class="item-price">
-          $11
+          $12
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
@@ -114,7 +114,7 @@
           &nbsp;
         </div>
         <div class="item-price">
-          $11
+          $12
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
@@ -131,11 +131,45 @@
           &nbsp;
         </div>
         <div class="item-price">
+          $12
+        </div>
+      </div><!-- .menu-price-row -->
+      <div itemprop="description" class="item-description">
+        Roasted red peppers, grilled onions, cucumber, spinach and provolone cheese, topped with spinach artichoke dip and a balsamic reduction, served on rosemary ciabatta
+      </div>
+    </div><!-- .menu-item -->
+
+    <div class="menu-item">
+      <div class="menu-price-row">
+        <div itemprop="name" class="item-name">
+          Turkey Pesto Wrap
+        </div>
+        <div class="dotted-line">
+          &nbsp;
+        </div>
+        <div class="item-price">
           $11
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Roasted red peppers, grilled onions, cucumber, spinach and provolone cheese, topped with spinach artichoke dip and a balsamic reduction
+        Turkey roasted in our F.A.B. Lager, swiss, provolone, spinach, tomato, onion and house made pesto mayo wrapped in a spinach wrap
+      </div>
+    </div><!-- .menu-item -->
+
+    <div class="menu-item">
+      <div class="menu-price-row">
+        <div itemprop="name" class="item-name">
+          Spicy Ahi Crunch Wrap
+        </div>
+        <div class="dotted-line">
+          &nbsp;
+        </div>
+        <div class="item-price">
+          $15
+        </div>
+      </div><!-- .menu-price-row -->
+      <div itemprop="description" class="item-description">
+        Light seared Ahi tuna, cucumber, avocado, sesame citrus jalapeño slaw, crunchy wonton bits, drizzled with a siracha sauce and wrapped in a spinach wrap
       </div>
     </div><!-- .menu-item -->
 

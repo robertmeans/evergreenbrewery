@@ -7,13 +7,30 @@
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
+          Chips &amp; Dip
+        </div>
+        <div class="dotted-line">
+          &nbsp;
+        </div>
+        <div  class="item-price">
+          $6
+        </div>
+      </div><!-- .menu-price-row -->
+      <div itemprop="description" class="item-description">
+        Served with cucumber dill cream sauce
+      </div>
+    </div><!-- .menu-item -->
+
+    <div class="menu-item">
+      <div class="menu-price-row">
+        <div itemprop="name" class="item-name">
           Loaded Fingerling Potatoes
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div  class="item-price">
-          $8
+          $10
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
@@ -24,17 +41,17 @@
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Brie Wedge
+          Aprihot Brie Wedge
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $10
+          $11
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Drizzled House-made beet syrup, Chipotle candied walnuts, served with flat bread crackers and crostini's
+        Topped with house made Apricot Habanero jam and candied walnuts, served with crostinis
       </div>
     </div><!-- .menu-item -->
 
@@ -47,7 +64,7 @@
           &nbsp;
         </div>
         <div class="item-price">
-          $6
+          $7
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
@@ -58,68 +75,68 @@
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Ahi Tuna Poke Bowl
+          Seared Ahi Tuna Lettuce Wraps
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $13
+          $14.50
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Fresh Ahi Tuna, Wakame seaweed, sweet onion, sesame seeds, dressed in a house made honey sesame soy sauce on a bed of cucumber and avacados
+        Lettuce cups filled with a sesame citrus jalapeño slaw, topped with seared Ahi, served with house made spicy peanut dipping sauce
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Pork Belly Lolli's
+          Roasted Beet Red Pepper Hummus
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $8
+          $10
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Seared pork belly with our house-made apricot habañero glaze
+        Topped with goat cheese and served with rye toast points and fresh veggies
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Spinach/Artichoke Dip
+          Green Chile Black Bean Quesadilla
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $8
+          $9
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Creamy spinach artichoke dip served with rye toast, flatbreat crackers and veggies
+        Served with house made tomatillo salsa and sour cream. - Somthered in green chili +$2
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Chips &amp; Dip
+          Spinach Artichoke Dip
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $5
+          $9
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Served with cucumber dill cream sauce
+        Creamy spinach artichoke dip served with rye toast, flatbread crackers and veggies
       </div>
     </div><!-- .menu-item -->
 

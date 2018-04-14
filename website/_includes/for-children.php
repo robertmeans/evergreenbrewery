@@ -63,7 +63,7 @@
           &nbsp;
         </div>
         <div class="item-price">
-          $6
+          $7
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
