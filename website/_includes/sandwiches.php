@@ -16,7 +16,7 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Slow roasted port, smoked ham, genoa salami and melted cheese. Topped with pickles, our house made mustard, lime juice reduction, served on french bread
+        Slow roasted pork, smoked ham, genoa salami and melted cheese. Topped with pickles, our house made mustard, lime juice reduction, served on french bread
       </div>
     </div><!-- .menu-item -->
 
