@@ -1,6 +1,6 @@
 <section class="menu-section">
   <h2 itemprop="servesCuisine">Soups &amp; Salads</h2>
-  <p class="section-sub">Add Tuna or Turkey for $3</p>
+  <p class="section-sub">Add Turkey or Bacon for $3</p>
   <div class="section-items">
 
     <div class="menu-item">
@@ -17,6 +17,23 @@
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
         Spinach, roasted beets, roasted red pepper, goat cheese, cucumber, cranberries, almonds, sesame seeds and poppy seeds, dressed with a warm bacon vinaigrette
+      </div>
+    </div><!-- .menu-item -->
+
+    <div class="menu-item">
+      <div class="menu-price-row">
+        <div itemprop="name" class="item-name">
+          Thai Crunch Salad
+        </div>
+        <div class="dotted-line">
+          &nbsp;
+        </div>
+        <div class="item-price">
+          $12
+        </div>
+      </div><!-- .menu-price-row -->
+      <div itemprop="description" class="item-description">
+        Cabbage, spinach, cucumbers, edamame, roasted red peppers, wonton strips, rice noodles, tossed in a peanut vinaigrette topped with toasted sesame seeds
       </div>
     </div><!-- .menu-item -->
 
@@ -40,7 +57,7 @@
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Roasted Beet Candied Walnut Salad
+          Harvest Apple Salad
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -50,7 +67,7 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Fresh spinach and candied walnuts tossed in a sherry vinaigrette, topped with house roasted beets and goat cheese
+        Fresh Spinach sliced granny smith apples candied walnuts parmesan cheese bacon crumbles dressed in apple cider vinaigrette
       </div>
     </div><!-- .menu-item -->
 
@@ -63,7 +80,7 @@
           &nbsp;
         </div>
         <div class="item-price">
-          $6
+          $7
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
@@ -74,17 +91,17 @@
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Mike's Might be Famous Green Chili
+          Chicken Tortilla Soup
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $9
+          $7
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Topped with cilantro and sour cream, served with tortilla
+        Served with corn tortilla and scallions
       </div>
     </div><!-- .menu-item -->
 

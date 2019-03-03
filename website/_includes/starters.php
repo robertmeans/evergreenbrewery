@@ -1,5 +1,5 @@
 <section class="menu-section">
-  <h2 itemprop="servesCuisine">Starters</h2>
+  <h2 itemprop="servesCuisine">Small Plates</h2>
   <p class="section-sub">&nbsp;</p>
 
   <div class="section-items">
@@ -17,24 +17,8 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Served with cucumber dill cream sauce
-      </div>
-    </div><!-- .menu-item -->
+        Kettle chips served with your choice of cucumber dill, French onion or beer cheese dip - Additional dips $2
 
-    <div class="menu-item">
-      <div class="menu-price-row">
-        <div itemprop="name" class="item-name">
-          Loaded Fingerling Potatoes
-        </div>
-        <div class="dotted-line">
-          &nbsp;
-        </div>
-        <div  class="item-price">
-          $10
-        </div>
-      </div><!-- .menu-price-row -->
-      <div itemprop="description" class="item-description">
-        Roasted potatoes topped with cheddar cheese, hickory smoked bacon, chives and sour cream
       </div>
     </div><!-- .menu-item -->
 
@@ -64,7 +48,7 @@
           &nbsp;
         </div>
         <div class="item-price">
-          $7
+          $8
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
@@ -75,24 +59,24 @@
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Seared Ahi Tuna Lettuce Wraps
+          Roasted Green Chili Hummus
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $14.50
+          $12
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Lettuce cups filled with a sesame citrus jalapeño slaw, topped with seared Ahi, served with house made spicy peanut dipping sauce
+        Served with toasted pita and fresh veggies
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Roasted Beet Red Pepper Hummus
+          Beer Cheese Fingerling Potatoes
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -102,24 +86,24 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Topped with goat cheese and served with rye toast points and fresh veggies
+        Roasted potatoes topped with homemade beer cheese, hickory smoked bacon, parmesan, scallions
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Green Chile Black Bean Quesadilla
+          Super Heady Veggie
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $9
+          $12
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Served with house made tomatillo salsa and sour cream. - Somthered in green chili +$2
+        Chef's selection of pickles, veggies adn dips served with crostini
       </div>
     </div><!-- .menu-item -->
 
@@ -143,17 +127,39 @@
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          From the Buther Block
+          From the Butcher Block
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $15
+          $17
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
         Chef's selection of meats, cheeses and homemade preserves served with flatbread crackers and crostinis
+      </div>
+    </div><!-- .menu-item -->
+
+
+    <div class="menu-item">
+      <div class="menu-price-row">
+        <div itemprop="name" class="item-name">
+          IPA Mac 'N Cheese
+        </div>
+        <div class="dotted-line">
+          &nbsp;
+        </div>
+        <div class="item-price">
+          $8
+        </div>
+      </div><!-- .menu-price-row -->
+      <div itemprop="description" class="item-description">
+        Shells, beer cheese bechamel, parmesan, breadcrumbs, served with scallions. 
+        <br />add green chile/carmelized onions - $1
+        <br />add bacon - $2
+        <br />add any protein - $3
+
       </div>
     </div><!-- .menu-item -->
 

@@ -34,6 +34,9 @@
 	</script>
 </head>
 <body>
+	<div id="lost">
+		<img class="lost-img" src="_images/404-lost.jpg">
+	</div>
 	<div id="not-found">
 		<p class="pg-not-found">You seem lost.<br />
 			<a href="/">Click here</a> and we'll get you home safe.</p>

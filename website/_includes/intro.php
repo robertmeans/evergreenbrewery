@@ -1,7 +1,8 @@
 <div id="intro">
-	<h1 itemprop="name">Evergreen Brewery</h1>
-	<h2>Beer, Food, Sprits &amp; Beer</h2>
+	
 	<div id="intro-container">
+		<h1 itemprop="name">Evergreen Brewery</h1>
+		<h2>Beer, Food, Sprits &amp; Beer</h2>
 
 		<div id="facebook-container">
 			<div class="fb-page" data-href="https://www.facebook.com/evergreenbrewery/" data-tabs="timeline, events" data-width="500px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/evergreenbreweryandtaphouse/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/evergreenbreweryandtaphouse/">Evergreen Brewery &amp; Tap House</a></blockquote></div>

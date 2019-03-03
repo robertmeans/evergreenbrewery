@@ -1,4 +1,9 @@
-
+section div#food-warning {
+  width: 80%;
+  margin: 8em auto 0 auto;
+  font-size: 0.6em;
+  text-align: center;
+}
 section.menu-section {
   width: 90%;
   max-width: 1100px;
@@ -18,7 +23,9 @@ div#food {
   display: flex;
   flex-direction: column;
   background: #e1e1e1;
-  background: url(_images/menu-bkg.jpg) repeat fixed;
+  background: url(_images/menu-chalkboard.jpg) repeat fixed center;
+  background-size: cover;
+  width: 100%;
   color: #fff;
   padding: 110px 0px;
   h2 {
@@ -67,6 +74,7 @@ div.item-name {
 }
 div.dotted-line {
   border-bottom: 1px dotted #757575;
+  border-bottom: 1px dotted #fff;
   margin: 0px 8px;
   flex-grow: 2;
 }

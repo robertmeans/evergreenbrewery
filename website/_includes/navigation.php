@@ -10,5 +10,5 @@
 </div><!-- #mySidenav -->
 <nav id="navigation">
 	<span onclick="openNav()"><img id="nav-toggle" src="_images/nav-toggle.png" /></span>
-	<img id="nav-logo" src="_images/evergreen-brewery-nav-logo.png" alt="Evergreen Brewery Logo">
+	<img id="nav-logo" src="_images/evergreen-brewery-nav-logo-bw.png" alt="Evergreen Brewery Logo">
 </nav>
