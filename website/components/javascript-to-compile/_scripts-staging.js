@@ -217,6 +217,34 @@ var _gsScope="undefined"!=typeof module&&module.exports&&"undefined"!=typeof glo
 // end jquery.scrollmagic.min.js
 
 
+
+// begin backstretch -----------------
+// To attach Backstrech as the body's background
+// $.backstretch("path/to/image.jpg");
+
+// You may also attach Backstretch to a block-level element
+
+// $("#div-three").backstretch("_images/colorado-flag.gif");
+
+// Or, to start a slideshow, just pass in an array of images
+$("#banner").backstretch([
+"_images/porter-snow.jpg",
+"_images/food-beer-deck.jpg",
+"_images/beer-lineup.jpg",
+], {duration: 2000,
+  fade: 4000});
+
+// can actually override the settings in jquery.backstretch.min.js by adding them like this...
+// $("#banner").backstretch([
+// "_images/porter-snow.jpg",
+// ], {duration: 2000,
+//   fade: 4000});
+// end backstretch -----------------
+
+
+
+
+
 // begin - smooth scrolling for everyone!
 $(function(){ 
 
@@ -417,7 +445,7 @@ window.requestAnimationFrame = window.requestAnimationFrame
 || window.msRequestAnimationFrame
 || function(f){setTimeout(f, 1000/60)}
 
-var logo = document.getElementById('logo');
+var logo = document.getElementById('info-bug');
 // var toggle = document.getElementById('intro-nav-toggle');
 // var badge = document.getElementById('badge');
 // var bubble2 = document.getElementById('bubbles2')
@@ -452,3 +480,36 @@ window.addEventListener('scroll', function(){ // on page scroll
 // }, false)
 
 // end - parallax
+
+
+
+// added functionality to change background image incase I need/want to use it
+
+var d = new Date();
+var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+var today = days[d.getDay()];
+
+if (today == "Monday") {
+  document.getElementById("hours-background").innerHTML = ('<img src="_images/hours-monday-tuesday.png" alt="Hours Mon-Tues">');
+
+} else if (today == "Tuesday") { 
+  document.getElementById("hours-background").innerHTML = ('<img src="_images/hours-monday-tuesday.png" alt="Hours Wed-Thurs">');  
+
+} else if (today == "Wednesday") { 
+  document.getElementById("hours-background").innerHTML = ('<img src="_images/hours-wednesday-thursday.png" alt="Hours Wed-Thurs">');
+
+} else if (today == "Thursday") { 
+  document.getElementById("hours-background").innerHTML = ('<img src="_images/hours-wednesday-thursday.png" alt="Hours Wed-Thurs">');  
+
+} else if (today == "Friday") { 
+  document.getElementById("hours-background").innerHTML = ('<img src="_images/hours-friday-saturday.png" alt="Hours Fri-Sat">');
+
+} else if (today == "Saturday") { 
+  document.getElementById("hours-background").innerHTML = ('<img src="_images/hours-friday-saturday.png" alt="Hours Fri-Sat">'); 
+
+} else if (today == "Sunday") { 
+  document.getElementById("hours-background").innerHTML = ('<img src="_images/hours-sunday.png" alt="Hours Fri-Sat">');   
+
+} else { // generic fallback
+  document.getElementById("hours-background").innerHTML = ('<img src="_images/hours-all.png" alt="Hours">');
+}

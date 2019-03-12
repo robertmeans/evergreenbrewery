@@ -19,7 +19,7 @@
 
 <?php require('_includes/banner.php'); ?>
 
-<?php require('_includes/intro.php'); ?>
+<?php require('_includes/social-media.php'); ?>
 
 <?php require('_includes/taphunter.php'); ?>
 
@@ -35,6 +35,7 @@
 
 <?php require('_includes/footer.php'); ?>
 
+<script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
 <script src="js/scripts.js?<?php echo time(); ?>"></script>
 <script src="http://localhost:35729/livereload.js"></script>	
 </body>

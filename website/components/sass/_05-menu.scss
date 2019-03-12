@@ -20,6 +20,7 @@ div.section-title {
   width: 100%;
 }
 div#food {
+  position: relative;
   display: flex;
   flex-direction: column;
   background: #e1e1e1;
@@ -33,6 +34,9 @@ div#food {
     font-size: 2em;
     font-family: Dolce-Vita, 'Muli', sans-serif;
   }
+  h2.no-sub {
+      margin-bottom: 1em;
+    }
 }
 p.section-sub {
   text-align: center;

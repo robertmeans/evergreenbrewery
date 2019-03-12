@@ -87,6 +87,7 @@ body {
   width: 100%;
   height: 60px;
   background-color: #565759;
+  background-color: rgba(86, 87, 89, 0.8);
   color: #FFFFFF;
   z-index: 90;
   display: none;
@@ -204,6 +205,7 @@ section#banner {
   width: 100%;
   height: 100%;
   height: 100vh;
+  padding: 30px;
   box-sizing: border-box;
 }
 section#banner img#banner-nav-toggle {
@@ -215,6 +217,50 @@ section#banner img#banner-nav-toggle {
   z-index: 30;
   transition: all 0.3s ease;
   cursor: pointer;
+}
+section#banner .top-nowrap {
+  width: 30%;
+  max-width: 350px;
+  min-width: 216px;
+  box-sizing: border-box;
+}
+section#banner .top-nowrap img.img-one {
+  width: 50%;
+  max-width: 229px;
+}
+section#banner .top-nowrap img.img-two {
+  width: 50%;
+  max-width: 229px;
+}
+section#banner .top-nowrap a.loc {
+  outline: none;
+}
+section#banner .top-nowrap a.loc:active {
+  outline: none;
+}
+section#banner #hours-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  max-width: 350px;
+  min-width: 216px;
+}
+section#banner #hours-wrapper img {
+  max-width: 100%;
+}
+section#banner div#social-homepage {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: left;
+      justify-content: left;
+  position: relative;
+  width: 100%;
+  margin-top: 15px;
+  margin-left: 4px;
+}
+section#banner div#social-homepage img {
+  max-width: 55px;
+  margin-right: 25px;
 }
 section#banner img#logo {
   width: 35%;
@@ -242,44 +288,20 @@ div#intro {
       flex-direction: column;
   -ms-flex-pack: center;
       justify-content: center;
-  background: #031bcb;
-  background: url(_images/intro-background.jpg) no-repeat fixed center;
-  background-size: cover;
+  background: #222;
   width: 100%;
   color: #fff;
   padding: 60px 15px;
+  position: relative;
   box-sizing: border-box;
-}
-div#intro h1 {
-  margin-top: 60px;
-  text-align: center;
-  font-size: 2em;
-  font-family: Dolce-Vita, 'Muli', sans-serif;
-}
-div#intro h2 {
-  text-align: center;
-  font-size: 1.2em;
-}
-div#intro .fa-arrow-circle-left {
-  color: #fff;
-  font-size: 1.3em;
-  margin-right: 6px;
-  display: inline-block;
-}
-div#intro h3 {
-  font-size: 1.2em;
-  font-family: verdana;
-  color: #fff;
-  display: inline-block;
 }
 div#intro #intro-container {
   position: relative;
-  width: 100%;
-  max-width: 1000px;
+  display: inline-block;
   margin: 50px auto;
-  padding: 15px;
-  border: 1px solid #fff;
-  background: rgba(0, 0, 0, 0.85);
+  background: #222;
+  padding: 20px 10px 20px 10px;
+  border-radius: 12px;
 }
 div#intro #intro-container h1 {
   margin-top: 40px;
@@ -292,67 +314,59 @@ div#intro #intro-container h2 {
   font-size: 1.2em;
   margin-bottom: 55px;
 }
-div#intro #intro-container p.small-gone {
-  height: 5px;
-  margin-bottom: 0px;
-}
-div#intro #intro-container img {
+div#intro #intro-container #facebook-block {
   float: left;
+  text-align: center;
   width: 100%;
-  max-width: 150px;
-  margin: 0 20px 10px 0;
-  border: 1px solid #fff;
-  box-shadow: -6px 6px 15px -6px rgba(0, 0, 0, 0.75);
+  max-width: 500px;
+  box-sizing: border-box;
+  padding: 10px;
 }
-div#intro #intro-container span.follow {
-  display: inline-block;
-  background: #4267b2;
-  color: #fff;
-  padding: 8px 20px;
-  margin: 0 0 1em 0;
-  border-radius: 3px;
-}
-div#intro #intro-container #facebook-container {
-  float: left;
+div#intro #intro-container #facebook-block #facebook-container {
   width: 100%;
   max-width: 500px;
   margin: 0px 20px 0px 0px;
   border: 1px solid #fff;
   box-shadow: -6px 6px 15px -6px rgba(0, 0, 0, 0.75);
 }
+div#intro #intro-container #instagram-block {
+  float: right;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+div#intro #intro-container #instagram-block #instagram-container {
+  width: 100%;
+  max-width: 500px;
+  height: 502px;
+  overflow-y: scroll;
+  border: 1px solid #fff;
+}
 div#intro #intro-container p {
   margin-bottom: 1em;
   line-height: 1.4em;
 }
 
-@media screen and (max-width: 840px) {
-  .small-gone {
-    display: none;
-  }
-
-  div#intro {
-    -ms-flex-pack: start;
-        justify-content: flex-start;
-    height: auto;
-    padding: 110px 2px;
-  }
-  div#intro #intro-container span.follow {
-    padding: 8px 20px 8px 20px;
-  }
-  div#intro .follow-fb {
-    display: none;
-  }
-  div#intro h1 {
-    margin-top: 0px;
-  }
-  div#intro #intro-container {
-    width: 98%;
-    max-width: 530px;
-  }
-  div#intro #intro-container #facebook-container {
+@media screen and (max-width: 1100px) {
+  div#intro #intro-container #facebook-block {
     float: none;
-    margin: 0 auto 20px auto;
-    display: block;
+    display: inline-block;
+    max-width: 100%;
+    margin: 0 auto 30px auto;
+  }
+  div#intro #intro-container #facebook-block #facebook-container {
+    margin: 0 auto;
+  }
+  div#intro #intro-container #instagram-block {
+    float: none;
+    display: inline-block;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  div#intro #intro-container #instagram-block #instagram-container {
+    margin: 0 auto;
   }
 }
 #menu-container > div > div > div.menu-nav.ut-row.divider-color > div > div.menu-list > div:nth-child(even) > a {
@@ -411,6 +425,7 @@ section#menu-container {
   background-color: #280000;
   padding: 80px 0px;
   overflow: hidden;
+  position: relative;
 }
 
 @media screen and (max-width: 520px) {
@@ -456,6 +471,7 @@ div.section-title {
 }
 
 div#food {
+  position: relative;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -471,6 +487,9 @@ div#food h2 {
   text-align: center;
   font-size: 2em;
   font-family: Dolce-Vita, 'Muli', sans-serif;
+}
+div#food h2.no-sub {
+  margin-bottom: 1em;
 }
 
 p.section-sub {

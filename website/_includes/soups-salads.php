@@ -16,7 +16,7 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Spinach, roasted beets, roasted red pepper, goat cheese, cucumber, cranberries, almonds, sesame seeds and poppy seeds, dressed with a warm bacon vinaigrette
+        Spinach, roasted red pepper, parmesan cheese, cucumber, cranberries, almonds, sesame seeds and poppy seeds. Dressed with a house bacon vinaigrette 
       </div>
     </div><!-- .menu-item -->
 

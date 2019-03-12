@@ -1,5 +1,5 @@
 <section class="menu-section">
-  <h2 itemprop="servesCuisine">Dessert</h2>
+  <h2 class="no-sub" itemprop="servesCuisine">Dessert</h2>
   <!-- <p class="section-sub">More to come!</p> -->
   <div class="section-items">
      
