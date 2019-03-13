@@ -493,7 +493,7 @@ if (today == "Monday") {
   document.getElementById("hours-background").innerHTML = ('<img src="_images/hours-monday-tuesday.png" alt="Hours Mon-Tues">');
 
 } else if (today == "Tuesday") { 
-  document.getElementById("hours-background").innerHTML = ('<img src="_images/hours-monday-tuesday.png" alt="Hours Wed-Thurs">');  
+  document.getElementById("hours-background").innerHTML = ('<img src="_images/hours-monday-tuesday.png" alt="Hours Mon-Tues">');  
 
 } else if (today == "Wednesday") { 
   document.getElementById("hours-background").innerHTML = ('<img src="_images/hours-wednesday-thursday.png" alt="Hours Wed-Thurs">');
@@ -508,7 +508,7 @@ if (today == "Monday") {
   document.getElementById("hours-background").innerHTML = ('<img src="_images/hours-friday-saturday.png" alt="Hours Fri-Sat">'); 
 
 } else if (today == "Sunday") { 
-  document.getElementById("hours-background").innerHTML = ('<img src="_images/hours-sunday.png" alt="Hours Fri-Sat">');   
+  document.getElementById("hours-background").innerHTML = ('<img src="_images/hours-sunday.png" alt="Hours Sunday">');   
 
 } else { // generic fallback
   document.getElementById("hours-background").innerHTML = ('<img src="_images/hours-all.png" alt="Hours">');

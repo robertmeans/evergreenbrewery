@@ -1,8 +1,11 @@
 section div#food-warning {
   width: 80%;
   margin: 8em auto 0 auto;
+  padding: 12px 0px;
   font-size: 0.6em;
   text-align: center;
+  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
 }
 section.menu-section {
   width: 90%;
