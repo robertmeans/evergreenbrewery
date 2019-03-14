@@ -291,63 +291,81 @@ section#banner img#logo {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
+  background: url(_images/social-background-dark.jpg) no-repeat fixed center;
+  background-size: cover;
   padding-top: 80px;
   padding-bottom: 100px;
-  background-color: #222;
   color: #fff;
   text-align: center;
-}
-#social h1 {
-  margin-top: 40px;
-  text-align: center;
-  font-size: 2em;
-  font-family: Dolce-Vita, 'Muli', sans-serif;
-}
-#social h2 {
-  text-align: center;
-  font-size: 1.2em;
-  margin-bottom: 25px;
-}
-#social p.social-intro {
-  margin-bottom: 35px;
 }
 #social #social-container {
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
   text-align: center;
-  padding: 20px;
+  padding: 20px 20px 50px 20px;
   width: 100%;
-  max-width: 1100px;
+  background-color: #222;
+  background-color: rgba(34, 34, 34, 0.9);
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#222222+0,222222+100&0+0,0.59+5,1+12,1+12,1+53,0.92+88,0.38+96,0+100 */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(34, 34, 34, 0) 0%, rgba(34, 34, 34, 0.59) 5%, #222222 12%, #222222 53%, rgba(34, 34, 34, 0.92) 88%, rgba(34, 34, 34, 0.38) 96%, rgba(34, 34, 34, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00222222', endColorstr='#00222222',GradientType=0 );
+  /* IE6-9 */
 }
-#social #social-container #facebook-block {
+#social #social-container h1 {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 2em;
+  font-family: Dolce-Vita, 'Muli', sans-serif;
+}
+#social #social-container h2 {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 25px;
+}
+#social #social-container p.social-intro {
+  margin-bottom: 35px;
+}
+#social #social-container #social-format {
+  width: 100%;
+  max-width: 1050px;
+  padding-bottom: 50px;
+  border-left: 1px solid orange;
+  border-right: 1px solid orange;
+}
+#social #social-container #social-format #facebook-block {
   float: left;
   text-align: center;
   width: 50%;
 }
-#social #social-container #facebook-block p {
+#social #social-container #social-format #facebook-block p {
   color: #fff;
   line-height: 2em;
 }
-#social #social-container #facebook-block #facebook-container {
+#social #social-container #social-format #facebook-block #facebook-container {
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
   border: 1px solid #fff;
 }
-#social #social-container #instagram-block {
+#social #social-container #social-format #instagram-block {
   float: right;
   text-align: center;
   width: 50%;
 }
-#social #social-container #instagram-block p {
+#social #social-container #social-format #instagram-block p {
   color: #fff;
   line-height: 2em;
 }
-#social #social-container #instagram-block #instagram-container {
+#social #social-container #social-format #instagram-block #instagram-container {
   width: 100%;
   max-width: 500px;
   height: 502px;
@@ -366,12 +384,16 @@ img.social-img {
     -ms-flex-direction: column;
         flex-direction: column;
   }
-  #social #social-container #facebook-block {
+  #social #social-container #social-format {
+    border-right: none;
+    border-left: none;
+  }
+  #social #social-container #social-format #facebook-block {
     width: 100%;
     float: none;
     margin: 0 auto;
   }
-  #social #social-container #instagram-block {
+  #social #social-container #social-format #instagram-block {
     width: 100%;
     float: none;
     margin: 40px auto 0;
@@ -619,6 +641,7 @@ div#location #location-wrapper #map a {
   border: none;
   line-height: 1.5em;
   height: auto;
+  outline: none;
 }
 div#location #location-wrapper i.fa {
   display: inline-block;
@@ -649,6 +672,13 @@ div#location #location-wrapper div.location a:hover {
 }
 div#location #location-wrapper div.hours {
   padding-left: 20px;
+}
+
+a.loc {
+  outline: none;
+}
+a.loc:active {
+  outline: none;
 }
 
 @media screen and (max-width: 860px) {

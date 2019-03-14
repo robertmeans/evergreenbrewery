@@ -39,6 +39,7 @@ div#location { // named #contact so it shows as such in url
 				border: none;
 				line-height: 1.5em;
 				height: auto;
+				outline: none;
 			}
 		}
 		i.fa {
@@ -75,7 +76,12 @@ div#location { // named #contact so it shows as such in url
 		}
 	}	
 }
-
+a.loc {
+	outline: none;
+	&:active {
+		outline: none;
+	}
+}
 @media screen and (max-width: 860px) {
 	div#location {
 		div#location-wrapper {
