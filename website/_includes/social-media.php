@@ -16,9 +16,8 @@
 				<div id="instagram-block">
 					<img class="social-img" src="_images/instagram-transparent.png">
 					<p>Follow us on Instagram</p>
-					<div id="instagram-container">
-						<div id="pixlee_container"></div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'c8MzrC0zfPY8YEttRmHf'});Pixlee.addSimpleWidget({widgetId:'16438'});};</script><script src="//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
-					</div><!-- #instagram-container --> 
+					<div id="pixlee_container"></div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'d7v6fxLwL1BA2fKgo1d8'});Pixlee.addSimpleWidget({widgetId:'16683'});};</script><script src="//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
+					</div><!-- #instagram-block --> 
 				</div><!-- #instagram-block -->
 			</div><!-- #social-format -->
 

@@ -358,10 +358,10 @@ section#banner img#logo {
   color: #fff;
   line-height: 2em;
 }
-#social #social-container #social-format #instagram-block #instagram-container {
+#social #social-container #social-format #instagram-block #pixlee_container {
   width: 100%;
   max-width: 500px;
-  height: 502px;
+  max-height: 502px;
   margin: 0 auto;
   overflow-y: scroll;
   border: 1px solid #fff;

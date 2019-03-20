@@ -13,7 +13,7 @@
 
 	<div id="social-homepage">
 		<a href="https://www.facebook.com/evergreenbrewery/" target="_blank" onclick="closeNav()"><img src="_images/facebook.png"></a>
-		<a href="https://www.instagram.com/evergreenbreweryco/" target="_blank" onclick="closeNav()"><img src="_images/instagram.png"></a>
+		<a href="https://www.instagram.com/evergreenbrewery/" target="_blank" onclick="closeNav()"><img src="_images/instagram.png"></a>
 	</div>
 	<!-- 
 	<img itemprop="logo" id="logo" class="logo" src="_images/evergreen-brewery-bw-logo.png" /> 
