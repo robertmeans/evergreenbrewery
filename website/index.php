@@ -24,6 +24,7 @@
 <?php require('_includes/taphunter.php'); ?>
 
 <div itemprop="hasMenu" id="food">
+	<?php require('_includes/specialties.php'); ?>
 	<?php require('_includes/starters.php'); ?>
 	<?php require('_includes/soups-salads.php'); ?>
 	<?php require('_includes/sandwiches.php'); ?>
