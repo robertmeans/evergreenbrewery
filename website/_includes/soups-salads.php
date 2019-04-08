@@ -1,12 +1,13 @@
 <section class="menu-section">
   <h2 itemprop="servesCuisine">Soups &amp; Salads</h2>
-  <p class="section-sub">Add Turkey or Bacon for $3</p>
+  <p class="section-sub extra-line">Add Turkey or Bacon for $3<br />
+  Add grilled chicken breast for $6</p>
   <div class="section-items">
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Cranberry Spinach Salad
+          Citrus-Berry Arugula Salad
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -16,7 +17,7 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Spinach, roasted red pepper, parmesan cheese, cucumber, cranberries, almonds, sesame seeds and poppy seeds. Dressed with a house bacon vinaigrette 
+        Fresh baby arugula, strawberries, gorgonzola crumbles, candied walnuts served with a honey lemon vinagrette 
       </div>
     </div><!-- .menu-item -->
 
@@ -36,6 +37,23 @@
         Cabbage, spinach, cucumbers, edamame, roasted red peppers, wonton strips, rice noodles, tossed in a peanut vinaigrette topped with toasted sesame seeds
       </div>
     </div><!-- .menu-item -->
+
+    <div class="menu-item">
+      <div class="menu-price-row">
+        <div itemprop="name" class="item-name">
+          Caesar Salad
+        </div>
+        <div class="dotted-line">
+          &nbsp;
+        </div>
+        <div class="item-price">
+          $10
+        </div>
+      </div><!-- .menu-price-row -->
+      <div itemprop="description" class="item-description">
+        Chopped romaine, roman caesar dressing, parmesan cracked pepper, lemon with garlic croutons
+      </div>
+    </div><!-- .menu-item -->    
 
     <div class="menu-item">
       <div class="menu-price-row">
@@ -91,17 +109,17 @@
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Chicken Tortilla Soup
+          Mikes Green Chili
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $7
+          $9
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Served with corn tortilla and scallions
+        Served wtih corn tortilla and scallions
       </div>
     </div><!-- .menu-item -->
 

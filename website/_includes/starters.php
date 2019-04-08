@@ -25,24 +25,7 @@
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Aprihot Brie Wedge
-        </div>
-        <div class="dotted-line">
-          &nbsp;
-        </div>
-        <div class="item-price">
-          $11
-        </div>
-      </div><!-- .menu-price-row -->
-      <div itemprop="description" class="item-description">
-        Topped with house made Apricot Habanero jam and candied walnuts, served with crostinis
-      </div>
-    </div><!-- .menu-item -->
-
-    <div class="menu-item">
-      <div class="menu-price-row">
-        <div itemprop="name" class="item-name">
-          Super Slaw
+          Super Summer Slaw
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -52,14 +35,14 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Shaved kale, brussel sprouts, red cabbage, dried cranberries and slivered almonds topped with our house made vinaigrette
+        Shaved kale, kohurabi, golden beets, brussel sprouts, red cabbage, dried cranberries and slivered almonds topped with our house made vinagrette
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Roasted Green Chili Hummus
+          Roasted Autumn Chili Hummus
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -76,24 +59,24 @@
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Beer Cheese Fingerling Potatoes
+          Burrat A Bomb
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $10
+          $11
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Roasted potatoes topped with homemade beer cheese, hickory smoked bacon, parmesan, scallions
+        Local burrata cheese, strawberries, fresh basil, candied walnuts, barrel aged gastrique, maldon sea salt
       </div>
-    </div><!-- .menu-item -->
+    </div><!-- .menu-item -->    
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Super Heady Veggie
+          Heady Veggie Plate
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -103,14 +86,14 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Chef's selection of pickles, veggies adn dips served with crostini
+        Chef's selection of pickled items, veggies and dips served with pita
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Spinach Artichoke Dip
+          Green Goddess Spinach Dip
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -120,7 +103,7 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Creamy spinach artichoke dip served with rye toast, flatbread crackers and veggies
+        Creamy avo spinach aserved with rye toast, pita and veggies
       </div>
     </div><!-- .menu-item -->
 

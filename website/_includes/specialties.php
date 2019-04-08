@@ -24,7 +24,7 @@
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Thai Crunch Salad
+          Cheesesteak
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -34,31 +34,14 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Cabbage, spinach, cucumbers, edamame, roasted red peppers, wonton strips, rice noodles, tossed in a peanut vinaigrette topped with toasted sesame seeds
+        Chipped ribeye, house Bechamel. Try it loaded with onions, peppers and jalapeno!
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          House Salad
-        </div>
-        <div class="dotted-line">
-          &nbsp;
-        </div>
-        <div class="item-price">
-          $9
-        </div>
-      </div><!-- .menu-price-row -->
-      <div itemprop="description" class="item-description">
-        Spinach, lettuce, onions, olives, tomato, cucumber with crostini
-      </div>
-    </div><!-- .menu-item -->
-
-    <div class="menu-item">
-      <div class="menu-price-row">
-        <div itemprop="name" class="item-name">
-          Harvest Apple Salad
+          The Big Juicy
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -68,41 +51,25 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Fresh Spinach sliced granny smith apples candied walnuts parmesan cheese bacon crumbles dressed in apple cider vinaigrette
+        Thick cut juicy heirloom tomatoes, Dukes mayo, fresh basil, sunflower seets, alfalfa on thick buttered sourdough<br />
+        Try it with bacon + $2
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Tomato Basil Bisque Soup
+          The Lunchbox - Fried Mort Adella
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $7
+          $12
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Made fresh daily and served with crostini
-      </div>
-    </div><!-- .menu-item -->
-
-    <div class="menu-item">
-      <div class="menu-price-row">
-        <div itemprop="name" class="item-name">
-          Chicken Tortilla Soup
-        </div>
-        <div class="dotted-line">
-          &nbsp;
-        </div>
-        <div class="item-price">
-          $7
-        </div>
-      </div><!-- .menu-price-row -->
-      <div itemprop="description" class="item-description">
-        Served with corn tortilla and scallions
+        Thin sliced Boars Head Mortadella seared on the flat top, Duonaise, American and cheddar, shredded iceburg lettuce, Kettle Chips on athick toasted white bread
       </div>
     </div><!-- .menu-item -->
 

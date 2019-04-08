@@ -29,7 +29,7 @@
 	<?php require('_includes/soups-salads.php'); ?>
 	<?php require('_includes/sandwiches.php'); ?>
 	<?php // require('_includes/for-children.php'); ?>
-	<?php require('_includes/sweeter-side.php'); ?>
+	<?php // require('_includes/sweeter-side.php'); ?>
 </div>
 
 <?php require('_includes/location.php'); ?>

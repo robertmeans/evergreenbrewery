@@ -57,7 +57,7 @@
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Porky Melt
+          Rachel
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -67,7 +67,7 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Hot pulled pork, caramelized onions, Worcestershire, swiss cheese, served on toasted rye with a side of 1000 island
+        Hot turkey, swiss, house cole slaw, russian dressing served toasted on marbled rye
       </div>
     </div><!-- .menu-item -->
 
@@ -91,7 +91,7 @@
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Aprihot Grilled Cheese
+          Rasberhot Grilled Cheese
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -101,14 +101,14 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Smoked ham, melted swiss and American cheese, topped with tomato, grilled onions, and our house-made apricot habanero jelly on sourdough
+        Smoked ham, melted swiss and American cheese, topped with tomato, grilled onions, and our house-made raspberry fresno jam on sourdough
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Turkey Salad Sandwich
+          Turkey Bacon Ranch
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -118,7 +118,7 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        House made cranberry walnut turkey salad served on brioche or 7 grain with lettuce and tomato
+        Hot smoked turkey, crispy bacon, sharp cheddar cheese and buttermilk ranch
       </div>
     </div><!-- .menu-item -->
 
@@ -176,7 +176,7 @@
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Bombastic BLT
+          Notorious BLT
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -186,7 +186,7 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Thick cut bacon, tomato, mayonnaise, super slaw, Balsamic reduction, served on sourdough (Super Slaw contains nuts) - Add Turkey $3
+        Applewood smoked bacon, Dukes Mayo, super summer slaw, barrel aged gastrique served on sourdough (contains nuts)
       </div>
     </div><!-- .menu-item -->
 

@@ -525,6 +525,10 @@ p.section-sub {
   margin-top: 0.8em;
 }
 
+p.extra-line {
+  line-height: 1.2em;
+}
+
 .menu-item {
   display: -ms-flexbox;
   display: flex;
