@@ -218,56 +218,65 @@ section#banner img#banner-nav-toggle {
   transition: all 0.3s ease;
   cursor: pointer;
 }
-section#banner .top-nowrap {
+section#banner div#info-bug {
+  box-sizing: border-box;
+}
+section#banner div#info-bug .info-bug-nowrap {
   width: 30%;
   max-width: 350px;
   min-width: 216px;
   box-sizing: border-box;
 }
-section#banner .top-nowrap img.img-one {
+section#banner div#info-bug .info-bug-nowrap img.img-one {
   width: 50%;
-  max-width: 229px;
+  max-width: 192px;
 }
-section#banner .top-nowrap img.img-two {
+section#banner div#info-bug .info-bug-nowrap img.img-two {
   width: 50%;
-  max-width: 229px;
+  max-width: 192px;
 }
-section#banner .top-nowrap a.loc {
-  outline: none;
+section#banner div#info-bug .info-bug-nowrap img.info-bug-fb {
+  width: 18.489570%;
+  max-width: 71px;
 }
-section#banner .top-nowrap a.loc:active {
-  outline: none;
+section#banner div#info-bug .info-bug-nowrap img.info-bug-i {
+  width: 19.531240%;
+  max-width: 75px;
 }
-section#banner #hours-wrapper {
+section#banner div#info-bug .info-bug-nowrap img.info-bug-oo {
+  width: 61.979100%;
+  max-width: 238px;
+}
+section#banner div#info-bug .info-bug-nowrap img.img-one:hover,
+section#banner div#info-bug .info-bug-nowrap img.img-two:hover,
+section#banner div#info-bug .info-bug-nowrap img.info-bug-fb:hover,
+section#banner div#info-bug .info-bug-nowrap img.info-bug-i:hover,
+section#banner div#info-bug .info-bug-nowrap img.info-bug-oo:hover {
+  opacity: 0.8;
+}
+section#banner div#info-bug #hours-wrapper {
   display: -ms-flexbox;
   display: flex;
   width: 30%;
   max-width: 350px;
   min-width: 216px;
 }
-section#banner #hours-wrapper img {
+section#banner div#info-bug #hours-wrapper img {
   max-width: 100%;
 }
-section#banner div#social-homepage {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: left;
-      justify-content: left;
-  position: relative;
-  width: 100%;
-  margin-top: 15px;
-  margin-left: 4px;
-}
-section#banner div#social-homepage img {
-  max-width: 55px;
-  margin-right: 25px;
-}
-section#banner img#logo {
+section#banner div#info-bug img#logo {
   width: 35%;
   max-width: 320px;
   position: relative;
   z-index: 25;
   transition: all 0.3s ease;
+}
+
+a.loc {
+  outline: none;
+}
+a.loc:active {
+  outline: none;
 }
 
 @media screen and (max-width: 880px) {
