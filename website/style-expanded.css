@@ -290,6 +290,22 @@ a.loc:active {
     right: 20px;
   }
 }
+div#sign-up {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+  z-index: 2147483;
+}
+
 #social {
   position: relative;
   display: -ms-flexbox;

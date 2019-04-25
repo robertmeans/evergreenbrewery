@@ -21,6 +21,14 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta name="description" content="Evergreen Brewery in Evergreen, Colorado - Local hand crafted beer & artisan cuisine.">
 	<meta name="format-detection" content="telephone=no">
+
+	<meta property="og:url" content="https://www.evergreenbrewery.com" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Evergreen Brewery, Evergreen, Colorado Brewery &amp; Taphouse" />
+	<meta property="og:image" content="https://www.evergreenbrewery.com/_images/thumbnails/Evergreen-Brewery-badge.png" />
+	<meta property="og:image:alt" content="Evergreen Brewery logo" />
+	<meta property="og:description" content="Evergreen Brewery in Evergreen, Colorado - Local hand crafted beer & artisan cuisine." />
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css">
 	<link href='https://fonts.googleapis.com/css?family=Muli:400,400i|Lora:400,400i' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="style.css?<?php echo time(); ?>" type="text/css">

@@ -1,6 +1,18 @@
 <?php $layout_context = "homepage"; ?>
 <?php require('_includes/head.php'); ?>
+
 <body itemscope itemtype="http://schema.org/Brewery">
+<?php
+    $user_is_first_timer = !isset( $_COOKIE["evergreen-brewery-first-visit"] );
+    setcookie( "evergreen-brewery-first-visit", 1, strtotime( '+30 days' ) );
+?>
+<?php if( $user_is_first_timer ): ?>
+	<div id="sign-up">
+		<script> var _ctct_m = "fec03c291dec1ef04deffafbd2b8ba1f"; </script>
+		<script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
+	</div>
+<?php endif; ?>
+
 <div id="top-of-page"></div>
 <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
