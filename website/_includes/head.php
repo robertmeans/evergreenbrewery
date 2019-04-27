@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<?php
+    $user_is_first_timer = !isset( $_COOKIE["evergreen-brewery-first-visit"] );
+    setcookie( "evergreen-brewery-first-visit", 1, strtotime( '+30 days' ) );
+?>
 <html lang="en">
 <!--
   Author:       Robert Means

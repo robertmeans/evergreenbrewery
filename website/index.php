@@ -2,10 +2,6 @@
 <?php require('_includes/head.php'); ?>
 
 <body itemscope itemtype="http://schema.org/Brewery">
-<?php
-    $user_is_first_timer = !isset( $_COOKIE["evergreen-brewery-first-visit"] );
-    setcookie( "evergreen-brewery-first-visit", 1, strtotime( '+30 days' ) );
-?>
 <?php if( $user_is_first_timer ): ?>
 	<div id="sign-up">
 		<script> var _ctct_m = "fec03c291dec1ef04deffafbd2b8ba1f"; </script>
@@ -28,13 +24,9 @@
 </script>
 
 <?php require('_includes/navigation.php'); ?>
-
 <?php require('_includes/banner.php'); ?>
-
 <?php require('_includes/social-media.php'); ?>
-
 <?php require('_includes/taphunter.php'); ?>
-
 <div itemprop="hasMenu" id="food">
 	<?php require('_includes/specialties.php'); ?>
 	<?php require('_includes/starters.php'); ?>
@@ -43,9 +35,7 @@
 	<?php // require('_includes/for-children.php'); ?>
 	<?php // require('_includes/sweeter-side.php'); ?>
 </div>
-
 <?php require('_includes/location.php'); ?>
-
 <?php require('_includes/footer.php'); ?>
 
 <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
