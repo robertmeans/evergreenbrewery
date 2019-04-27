@@ -16,7 +16,7 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Served smashed with lettuce, tomato &amp; onion and gool ol' American cheese.<br />
+        Served smashed with lettuce, tomato &amp; onion and good ol' American cheese.<br />
         Add ons: $0.50 
       </div>
     </div><!-- .menu-item -->
