@@ -513,3 +513,7 @@ if (today == "Monday") {
 } else { // generic fallback
   document.getElementById("hours-background").innerHTML = ('<img src="_images/hours-all.png" alt="Hours">');
 }
+
+function showSignUp() {
+   document.getElementById('footer-sign-up').style.display = "block";
+}

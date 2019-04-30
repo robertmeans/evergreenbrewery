@@ -13,5 +13,6 @@
 	<!-- <div class="footer-top">
 		&nbsp;
 	</div> -->
+
 	<p class="copyright"><?= ewd_copyright(2017); ?> Evergreen Brewery | <a href="http://www.evergreenwebdesign.com" target="_blank">Evergreen Web Design</a></p>
 </footer>
