@@ -1723,6 +1723,52 @@ footer p.copyright a:hover {
   color: #fff;
 }
 
+div#sign-up-hidden {
+  display: none;
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+}
+
+div#footer-sign-up {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1234567;
+}
+div#footer-sign-up div#ctr-cc {
+  width: 100%;
+  max-width: 500px;
+  margin: 10px;
+}
+div#footer-sign-up div#ctr-cc a.cc-x {
+  text-decoration: none;
+  color: #000;
+  padding: 20px;
+  float: right;
+  display: block;
+  clear: both;
+  margin-bottom: 8px;
+}
+
+a.show-cc {
+  padding: 20px;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  border: 1px solid red;
+}
+
 div#lost img.lost-img {
   width: 96%;
   max-width: 1920px;

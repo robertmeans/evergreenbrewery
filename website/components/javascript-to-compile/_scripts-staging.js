@@ -515,5 +515,8 @@ if (today == "Monday") {
 }
 
 function showSignUp() {
-   document.getElementById('footer-sign-up').style.display = "block";
+   document.getElementById('sign-up-hidden').style.display = "block";
+}
+function hideSignUp() {
+   document.getElementById('sign-up-hidden').style.display = "none";
 }
