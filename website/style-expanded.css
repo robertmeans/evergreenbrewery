@@ -1767,6 +1767,8 @@ a.show-cc {
   background-color: rgba(255, 255, 255, 0.8);
   color: #333;
   border: 1px solid red;
+  line-height: 4em;
+  margin-left: 10%;
 }
 
 div#lost img.lost-img {
