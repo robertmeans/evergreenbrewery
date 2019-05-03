@@ -12,7 +12,7 @@
 <div id="top-of-page"></div>
 <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
-<div id="fb-root"></div>
+<div ierd="fb-root"></div>
 <script>
 	(function(d, s, id) {
 	  var js, fjs = d.getElementsByTagName(s)[0];

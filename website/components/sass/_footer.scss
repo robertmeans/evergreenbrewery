@@ -7,19 +7,12 @@ footer {
 	box-sizing: border-box;
 	margin-bottom: -20px; // to get rid of whitespace that taphunter #menu-container puts at btm of pg
 	position: relative;
-	// div.footer-top {
-	// 	width: 100%;
-	// 	height: 30px;
-	// 	position: absolute;
-	// 	top: 0;
-	// 	background: url(_images/location-btm.png);
-	// 	background-repeat: repeat-x;
-	// }
+	padding-top: 30px;
 	p.copyright {
 		box-sizing: border-box;
 		width: 100%;
 		height: 200px;
-		padding: 260px 10% 0px;
+		padding: 150px 10% 0px;
 		text-align: right;
 		color: #fff;
 		color: rgba(255,255,255,0.6);
@@ -41,52 +34,78 @@ footer {
 			}
 		}
 	}
-}
-
-
-div#sign-up-hidden {
-	display: none;
-	width: 100%;
-	height: 100%;
-	height: 100vh;
-	position: fixed;
-	top: 0;
-}
-div#footer-sign-up {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: 100%;
-	height: 100vh;
-	margin: 0 auto;
-	background-color: rgba(0,0,0,0.8);
-	z-index: 1234567;
-
-	div#ctr-cc {
+	div#sign-up-hidden {
+		display: none;
+		background-color: rgba(0,0,0,0.8);
+		position: fixed;
+		top: 0;
+		z-index: 1234567;
 		width: 100%;
-		max-width: 500px;
-		margin: 10px;
-		a.cc-x {
-			text-decoration: none;
-			color: #000;
-			padding: 20px;
-			float: right;
-			display: block;
-			clear: both;
-			// position: absolute;
-			// top: 0;
-			// right: 0;
-			margin-bottom: 8px;
-		}
+		div#footer-sign-up {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			height: 100%;
+			height: 100vh;
+
+			div#ctr-cc {
+				width: 96%;
+				max-width: 500px;
+				height: 100%;
+				height: 100vh;
+				max-height: 485px;
+				overflow-y: auto;
+				a.cc-x {
+					text-decoration: none;
+					color: #000;
+					padding: 20px;
+					float: right;
+					display: block;
+					clear: both;
+					margin-bottom: 8px;
+				}
+				i.fa-window-close {
+					color: #333;
+					font-size: 2.5em;
+				}
+			}
+		}	
 	}
+	div#cc-invite {
+		position: relative;
+		width: 100%;
+		max-width: 400px;
+		margin-left: 10%;
+		background-color: rgba(255,255,255,1);
+		border: 3px dashed red;
+		border-radius: 8px;
+		box-sizing: border-box;
+		p.invite {
+			line-height: 1.5em;
+			padding: 20px;
+		}
+		a.show-cc {
+			display: block;
+			text-align: center;
+			position: relative;
+			padding: 20px;
+			text-decoration: none;
+			background-color: rgba(255,255,255,0.8);
+			color: #333;
+			border-top: 1px dashed red;
+			transition: all 0.3s ease;
+			&:hover {
+				background-color: rgba(0,0,0,0.8);
+				color: #fff;
+			}
+		}
+	}	
 }
-a.show-cc {
-	padding: 20px;
-	text-decoration: none;
-	background-color: rgba(255,255,255,0.8);
-	color: #333;
-	border: 1px solid red;
-	line-height: 4em;
-	margin-left: 10%;
+@media screen and (max-width: 700px) {
+	footer div#cc-invite {
+		width: 96%;
+		display: block;
+		margin: 0 auto;
+	}
 }

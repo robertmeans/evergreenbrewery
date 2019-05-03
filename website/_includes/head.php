@@ -33,7 +33,7 @@
 	<meta property="og:image:alt" content="Evergreen Brewery logo" />
 	<meta property="og:description" content="Evergreen Brewery in Evergreen, Colorado - Local hand crafted beer & artisan cuisine." />
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<link href='https://fonts.googleapis.com/css?family=Muli:400,400i|Lora:400,400i' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="style.css?<?php echo time(); ?>" type="text/css">
 	<script src="https://code.jquery.com/jquery-latest.js"></script>

@@ -44,7 +44,9 @@
     top: 0;
     left: 0;
     background-color: #111;
-    border-right: 1px solid #fff;
+
+    // this puts a 1px border down the side of the entire page.
+    // border-right: 1px solid #fff;
     overflow-x: hidden; 
     padding-top: 120px; 
     transition: 0.5s; /* slide in the sidenav */
