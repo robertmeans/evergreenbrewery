@@ -1244,23 +1244,8 @@ a.loc:active {
     right: 20px;
   }
 }
-div#sign-up {
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
-  width: 100%;
-  height: 100%;
-  height: 100vh;
-  z-index: 2147483;
-}
-
 #social {
+  image-rendering: -webkit-optimize-contrast;
   position: relative;
   display: -ms-flexbox;
   display: flex;
@@ -1270,7 +1255,7 @@ div#sign-up {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  background: url(_images/social-background-dark.jpg) no-repeat fixed center;
+  background: url(_images/evergreen-lake.jpg) no-repeat fixed center;
   background-size: cover;
   padding-top: 80px;
   padding-bottom: 100px;
@@ -1290,7 +1275,7 @@ div#sign-up {
   padding: 20px 20px 50px 20px;
   width: 100%;
   background-color: #222;
-  background-color: rgba(34, 34, 34, 0.9);
+  background-color: rgba(34, 34, 34, 0.7);
 }
 #social #social-container h1 {
   margin-top: 40px;
@@ -1369,6 +1354,14 @@ img.social-img {
     width: 100%;
     float: none;
     margin: 40px auto 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  #social {
+    background: url(_images/evergreen-lake.jpg) no-repeat center;
+    background-size: auto 100%;
+    background-attachment: scroll;
+    min-height: 100vh;
   }
 }
 #menu-container > div > div > div.menu-nav.ut-row.divider-color > div > div.menu-list > div:nth-child(even) > a {
@@ -1722,59 +1715,23 @@ footer p.copyright a {
 footer p.copyright a:hover {
   color: #fff;
 }
-footer div#sign-up-hidden {
-  display: none;
-  background-color: rgba(0, 0, 0, 0.8);
-  position: fixed;
-  top: 0;
-  z-index: 1234567;
-  width: 100%;
-}
-footer div#sign-up-hidden div#footer-sign-up {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
-  width: 100%;
-  height: 100%;
-  height: 100vh;
-}
-footer div#sign-up-hidden div#footer-sign-up div#ctr-cc {
-  width: 96%;
-  max-width: 500px;
-  height: 100%;
-  height: 100vh;
-  max-height: 485px;
-  overflow-y: auto;
-}
-footer div#sign-up-hidden div#footer-sign-up div#ctr-cc a.cc-x {
-  text-decoration: none;
-  color: #000;
-  padding: 20px;
-  float: right;
-  display: block;
-  clear: both;
-  margin-bottom: 8px;
-}
-footer div#sign-up-hidden div#footer-sign-up div#ctr-cc i.fa-window-close {
-  color: #333;
-  font-size: 2.5em;
-}
 footer div#cc-invite {
   position: relative;
   width: 100%;
   max-width: 400px;
   margin-left: 10%;
-  background-color: white;
-  border: 3px dashed red;
-  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0);
+  border-left: 1px dashed #fff;
+  border-right: 1px dashed #fff;
   box-sizing: border-box;
 }
 footer div#cc-invite p.invite {
   line-height: 1.5em;
   padding: 20px;
+  color: #fff;
+  font-size: 1em;
+  letter-spacing: 1px;
+  text-align: justify;
 }
 footer div#cc-invite a.show-cc {
   display: block;
@@ -1782,13 +1739,14 @@ footer div#cc-invite a.show-cc {
   position: relative;
   padding: 20px;
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.1);
   color: #333;
-  border-top: 1px dashed red;
+  color: #fff;
+  border-top: 1px dashed #5b2711;
   transition: all 0.3s ease;
 }
 footer div#cc-invite a.show-cc:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(20, 9, 5, 0.8);
   color: #fff;
 }
 
@@ -1875,4 +1833,85 @@ a.oo-aos {
 }
 a.oo-aos:hover {
   background-color: rgba(0, 0, 0, 0.9);
+}
+
+div#sign-up-first-visit {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  z-index: 1234567;
+  width: 100%;
+}
+div#sign-up-first-visit div#footer-sign-up {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+}
+div#sign-up-first-visit div#footer-sign-up div#ctr-cc {
+  width: 96%;
+  max-width: 500px;
+  height: 100%;
+  height: 100vh;
+  max-height: 485px;
+  overflow-y: auto;
+}
+div#sign-up-first-visit div#footer-sign-up div#ctr-cc a.cc-x {
+  text-decoration: none;
+  color: #000;
+  padding: 20px;
+  float: right;
+  display: block;
+  clear: both;
+  margin-bottom: 8px;
+}
+div#sign-up-first-visit div#footer-sign-up div#ctr-cc i.fa-window-close {
+  color: #333;
+  font-size: 2.5em;
+}
+
+div#sign-up-hidden {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  z-index: 1234567;
+  width: 100%;
+}
+div#sign-up-hidden div#footer-sign-up {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+}
+div#sign-up-hidden div#footer-sign-up div#ctr-cc {
+  width: 96%;
+  max-width: 500px;
+  height: 100%;
+  height: 100vh;
+  max-height: 485px;
+  overflow-y: auto;
+}
+div#sign-up-hidden div#footer-sign-up div#ctr-cc a.cc-x {
+  text-decoration: none;
+  color: #000;
+  padding: 20px;
+  float: right;
+  display: block;
+  clear: both;
+  margin-bottom: 8px;
+}
+div#sign-up-hidden div#footer-sign-up div#ctr-cc i.fa-window-close {
+  color: #333;
+  font-size: 2.5em;
 }

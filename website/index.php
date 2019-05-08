@@ -2,11 +2,19 @@
 <?php require('_includes/head.php'); ?>
 
 <body itemscope itemtype="http://schema.org/Brewery">
-<?php if( $user_is_first_timer ): ?>
-	<div id="sign-up">
-		<script> var _ctct_m = "fec03c291dec1ef04deffafbd2b8ba1f"; </script>
-		<script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
-	</div>
+<?php if( $first_visit ): ?>
+	<div id="sign-up-first-visit">
+		<div id="footer-sign-up">
+			<div id="ctr-cc" class="cf">
+				<div id="close-cc">
+					<a class="cc-x" onClick="hideInitialSignUp(); return false;" href="#"><i class="far fa-window-close"></i></a>
+				</div><!-- #close-cc -->
+				<!-- Begin Constant Contact Inline Form Code -->
+				<div class="ctct-inline-form" data-form-id="14a8ad96-ce01-43e3-82e8-ddbd6c63053a"></div>
+				<!-- End Constant Contact Inline Form Code -->
+			</div><!-- #ctr-cc -->
+		</div><!-- #footer-sign-up -->
+	</div><!-- #sign-up-first-visit -->
 <?php endif; ?>
 
 <div id="top-of-page"></div>

@@ -514,6 +514,10 @@ if (today == "Monday") {
   document.getElementById("hours-background").innerHTML = ('<img src="_images/hours-all.png" alt="Hours">');
 }
 
+function hideInitialSignUp() {
+   document.getElementById('sign-up-first-visit').style.display = "none";
+}
+
 function showSignUp() {
    document.getElementById('sign-up-hidden').style.display = "block";
 }

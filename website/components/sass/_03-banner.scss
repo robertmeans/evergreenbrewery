@@ -111,16 +111,17 @@ a.loc {
 		}
 	}
 }
-div#sign-up {
-	position: fixed;
-	top: 0;
-	left: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: 100%;
-	height: 100vh;
-	z-index: 2147483;
-	// background-color: rgba(0,0,0,0.7);
-}
+
+// abandoned the wrapper around the constant contact initial sign-up because it was causing an overlay to remain after the dialog box was closed thereby covering all links underneath. apparently the sign-up positions itself center/center inherently with overflow-x:scroll;
+// div#sign-up {
+// 	position: fixed;
+// 	top: 0;
+// 	left: 0;
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+// 	width: 100%;
+// 	height: 100%;
+// 	height: 100vh;
+// 	z-index: 2147483;
+// }
