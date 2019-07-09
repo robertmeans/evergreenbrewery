@@ -40,8 +40,6 @@
 	<?php require('_includes/starters.php'); ?>
 	<?php require('_includes/soups-salads.php'); ?>
 	<?php require('_includes/sandwiches.php'); ?>
-	<?php // require('_includes/for-children.php'); ?>
-	<?php // require('_includes/sweeter-side.php'); ?>
 </div><!-- #food -->
 <?php require('_includes/location.php'); ?>
 <?php require('_includes/footer.php'); ?>
