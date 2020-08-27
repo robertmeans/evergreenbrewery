@@ -228,15 +228,15 @@ var _gsScope="undefined"!=typeof module&&module.exports&&"undefined"!=typeof glo
 
 // Or, to start a slideshow, just pass in an array of images
 $("#banner").backstretch([
-"_images/porter-snow.jpg",
-"_images/food-beer-deck.jpg",
-"_images/beer-lineup.jpg",
+"_images/corona.jpg",
+"_images/taps.jpg",
+"_images/toast.jpg",
 ], {duration: 2000,
   fade: 4000});
 
 // can actually override the settings in jquery.backstretch.min.js by adding them like this...
 // $("#banner").backstretch([
-// "_images/porter-snow.jpg",
+// "_images/corona.jpg",
 // ], {duration: 2000,
 //   fade: 4000});
 // end backstretch -----------------
@@ -365,7 +365,7 @@ $('a.no-default').click(function(e)
 });
 
 
-var btt = $('.back-to-top');
+var btt = $('.btt');
 
 btt.on('click', function(e) {
 $('html, body').animate({
@@ -514,13 +514,13 @@ if (today == "Monday") {
   document.getElementById("hours-background").innerHTML = ('<img src="_images/hours-all.png" alt="Hours">');
 }
 
-function hideInitialSignUp() {
-   document.getElementById('sign-up-first-visit').style.display = "none";
-}
+// function hideInitialSignUp() {
+//    document.getElementById('sign-up-first-visit').style.display = "none";
+// }
 
-function showSignUp() {
-   document.getElementById('sign-up-hidden').style.display = "block";
-}
-function hideSignUp() {
-   document.getElementById('sign-up-hidden').style.display = "none";
-}
+// function showSignUp() {
+//    document.getElementById('sign-up-hidden').style.display = "block";
+// }
+// function hideSignUp() {
+//    document.getElementById('sign-up-hidden').style.display = "none";
+// }

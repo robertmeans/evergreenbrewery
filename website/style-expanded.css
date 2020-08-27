@@ -1152,7 +1152,7 @@ body {
   }
 }
 section#banner {
-  background: #100000 url(_images/porter-snow.jpg) no-repeat fixed center;
+  background: #100000 url(_images/corona.jpg) no-repeat fixed center;
   background-size: cover;
   background-position: fixed;
   position: relative;
@@ -1255,7 +1255,7 @@ a.loc:active {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  background: url(_images/evergreen-lake.jpg) no-repeat fixed center;
+  background: url(_images/002-first-morning-wake-up.jpg) no-repeat fixed center;
   background-size: cover;
   padding-top: 80px;
   padding-bottom: 100px;

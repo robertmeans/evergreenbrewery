@@ -2,23 +2,9 @@
 <?php require('_includes/head.php'); ?>
 
 <body itemscope itemtype="http://schema.org/Brewery">
-<?php if( $first_visit ): ?>
-	<div id="sign-up-first-visit">
-		<div id="footer-sign-up">
-			<div id="ctr-cc" class="cf">
-				<div id="close-cc">
-					<a class="cc-x" onClick="hideInitialSignUp(); return false;" href="#"><i class="far fa-window-close"></i></a>
-				</div><!-- #close-cc -->
-				<!-- Begin Constant Contact Inline Form Code -->
-				<div class="ctct-inline-form" data-form-id="14a8ad96-ce01-43e3-82e8-ddbd6c63053a"></div>
-				<!-- End Constant Contact Inline Form Code -->
-			</div><!-- #ctr-cc -->
-		</div><!-- #footer-sign-up -->
-	</div><!-- #sign-up-first-visit -->
-<?php endif; ?>
 
 <div id="top-of-page"></div>
-<a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+<a href="#" class="back-to-top btt"><i class="fa fa-angle-up"></i></a>
 
 <div ierd="fb-root"></div>
 <script>
@@ -34,7 +20,7 @@
 <?php require('_includes/navigation.php'); ?>
 <?php require('_includes/banner.php'); ?>
 <?php require('_includes/social-media.php'); ?>
-<?php require('_includes/taphunter.php'); ?>
+<?php // require('_includes/taphunter.php'); ?>
 <div itemprop="hasMenu" id="food"> 
 	<?php require('_includes/specialties.php'); ?>
 	<?php require('_includes/starters.php'); ?>
