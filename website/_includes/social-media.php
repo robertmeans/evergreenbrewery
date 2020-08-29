@@ -2,7 +2,7 @@
 		<div id="social-container">
 			<h1 itemprop="name">Social Corner</h1>
 			<h2>At a Glance</h2>
-			<p class="social-intro">Find events. Get notifications</p>
+			<p class="social-intro">Check out these embedded feeds!</p>
 
 			<div id="social-format">
 				<div id="facebook-block">
@@ -13,12 +13,14 @@
 					</div><!-- #facebook-container -->
 				</div><!-- #facebook-block -->
 			
-				<div id="instagram-block">
-					<a class="loc" href="https://www.instagram.com" target="_blank"><img class="social-img" src="_images/instagram-transparent.png" alt="Instagram"></a>
-					<p>Follow us on Instagram</p>
-					<div id="pixlee_container"></div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'d7v6fxLwL1BA2fKgo1d8'});Pixlee.addSimpleWidget({widgetId:'16683'});};</script><script src="//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script>
-					</div><!-- #instagram-block --> 
-				</div><!-- #instagram-block -->
+				<div id="twitter-block">
+					<a class="loc" href="https://www.twitter.com/EWDLLC" target="_blank"><img class="social-img" src="_images/twitter-transparent.png" alt="twitter"></a>
+						<p>Follow us on Twitter</p>
+					<div id="twitter">
+						
+						<a class="twitter-timeline" href="https://twitter.com/EWDLLC?ref_src=twsrc%5Etfw">Tweets by EWDLLC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div>
+				</div><!-- #twitter-block -->
 			</div><!-- #social-format -->
 
 		</div><!-- #social-container -->

@@ -7,75 +7,75 @@
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Citrus-Berry Arugula Salad
+          Skateboard Hexagon Waistcoat
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $12
+          $14
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Fresh baby arugula, strawberries, gorgonzola crumbles, candied walnuts served with a honey lemon vinagrette 
+        Waistcoat try-hard brooklyn selvage microdosing cray. Skateboard woke banh mi, squid shabby chic humblebrag tattooed meh 
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Thai Crunch Salad
+          Next Level Freegan
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $12
+          $13
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Cabbage, spinach, cucumbers, edamame, roasted red peppers, wonton strips, rice noodles, tossed in a peanut vinaigrette topped with toasted sesame seeds
+        Letterpress post-ironic fam. Quinoa fashion axe twee, meh cornhole venmo
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Caesar Salad
+          Mixtape Asymmetrical Vinyl
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $10
+          $18
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Chopped romaine, roman caesar dressing, parmesan cracked pepper, lemon with garlic croutons
+        Marfa sartorial hot chicken. Blue bottle twee humblebrag church-key keytar keffiyeh umami fam
       </div>
     </div><!-- .menu-item -->    
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          House Salad
+          Wayfarers Bitters
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $9
+          $2
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Spinach, lettuce, onions, olives, tomato, cucumber with crostini
+        Intelligentsia meditation tumeric kombucha pabst brooklyn
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Harvest Apple Salad
+          Selvage Chartreuse Seitan
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -85,31 +85,14 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Fresh Spinach sliced granny smith apples candied walnuts parmesan cheese bacon crumbles dressed in apple cider vinaigrette
+        Ethical poke franzen live-edge tousled hashtag flannel sustainable photo booth
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Tomato Basil Bisque Soup
-        </div>
-        <div class="dotted-line">
-          &nbsp;
-        </div>
-        <div class="item-price">
-          $7
-        </div>
-      </div><!-- .menu-price-row -->
-      <div itemprop="description" class="item-description">
-        Made fresh daily and served with crostini
-      </div>
-    </div><!-- .menu-item -->
-
-    <div class="menu-item">
-      <div class="menu-price-row">
-        <div itemprop="name" class="item-name">
-          Mikes Green Chili
+          Palo Santo
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -119,7 +102,24 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Served wtih corn tortilla and scallions
+        Drinking vinegar brunch poke intelligentsia bicycle rights master cleanse pitchfork
+      </div>
+    </div><!-- .menu-item -->
+
+    <div class="menu-item">
+      <div class="menu-price-row">
+        <div itemprop="name" class="item-name">
+          Taiyaki Selvage
+        </div>
+        <div class="dotted-line">
+          &nbsp;
+        </div>
+        <div class="item-price">
+          $19
+        </div>
+      </div><!-- .menu-price-row -->
+      <div itemprop="description" class="item-description">
+        Flannel blog hashtag health goth viral echo park hexagon. Intelligentsia marfa vinyl, shabby chic
       </div>
     </div><!-- .menu-item -->
 

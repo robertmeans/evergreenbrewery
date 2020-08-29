@@ -19,8 +19,8 @@
 
 <?php require('_includes/navigation.php'); ?>
 <?php require('_includes/banner.php'); ?>
+<?php require('_includes/greeting.php'); ?>
 <?php require('_includes/social-media.php'); ?>
-<?php // require('_includes/taphunter.php'); ?>
 <div itemprop="hasMenu" id="food"> 
 	<?php require('_includes/specialties.php'); ?>
 	<?php require('_includes/starters.php'); ?>

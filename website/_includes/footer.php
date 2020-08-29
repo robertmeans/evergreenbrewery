@@ -29,7 +29,7 @@
 		</div><!-- #footer-sign-up -->
 	</div><!-- #sign-up-hidden -->
 
-	<p class="copyright"><?= ewd_copyright(2017); ?> Evergreen Brewery | <a href="http://www.evergreenwebdesign.com" target="_blank">Evergreen Web Design</a></p>
+	<p class="copyright"><?= ewd_copyright(2017); ?> <a href="http://www.evergreenwebdesign.com" target="_blank">Evergreen Web Design</a></p>
 
 	<!-- Begin Constant Contact Universal Code -->
 	<script> var _ctct_m = "fec03c291dec1ef04deffafbd2b8ba1f"; </script>

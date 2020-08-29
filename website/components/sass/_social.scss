@@ -59,10 +59,15 @@
 					border: 1px solid #fff;
 				}
 			}
-			#instagram-block {
+			#twitter-block {
 				float: right;
 				text-align: center;
 				width: 50%;
+				#twitter {
+					max-height: 502px;
+					margin: 0 10px 0 0;
+					overflow-y: scroll;
+				}
 				// background-color: red;
 				p {
 					color: #fff;
@@ -80,6 +85,11 @@
 		}
 	}
 }
+.timeline-widget {
+	margin: 0 10px;
+	max-height: 500px;
+	overflow-y: scroll;
+}
 img.social-img {
 	width: 100%;
 	max-width: 50px;
@@ -96,7 +106,7 @@ img.social-img {
 					float: none;
 					margin: 0 auto;
 				}
-				#instagram-block {
+				#twitter-block {
 					width: 100%;
 					float: none;
 					margin: 40px auto 0;

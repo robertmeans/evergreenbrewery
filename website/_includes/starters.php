@@ -7,7 +7,7 @@
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Chips &amp; Dip
+          Root Beer &amp; M&amp;M's
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -17,7 +17,7 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Kettle chips served with your choice of cucumber dill, French onion or beer cheese dip - Additional dips $2
+        Pastry lemon drops ice cream tart. Chupa chups liquorice jelly tootsie roll dessert - Additional relish $2
 
       </div>
     </div><!-- .menu-item -->
@@ -25,24 +25,24 @@
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Super Summer Slaw
+          Jelly Beans Tiramisu
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $8
+          $22
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Shaved kale, kohurabi, golden beets, brussel sprouts, red cabbage, dried cranberries and slivered almonds topped with our house made vinagrette
+        Candy jelly cake lollipop icing cheesecake liquorice tiramisu. Caramels donut apple pie donut carrot cake ice cream
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Roasted Autumn Chili Hummus
+          Chupa Chups Carrot Cake
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -52,31 +52,31 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Served with toasted pita and fresh veggies
+         Jelly-o gummi bears cotton candy ice cream. Sugar plum cake muffin tootsie roll toffee sweet jelly beans
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Burrat A Bomb
+          Gingerbread Powder Lemon Drops
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $11
+          $14
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Local burrata cheese, strawberries, fresh basil, candied walnuts, barrel aged gastrique, maldon sea salt
+        Sesame snaps marzipan cake fruitcake cheesecake powder caramels macaroon jujubes. Liquorice sesame snaps
       </div>
     </div><!-- .menu-item -->    
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Heady Veggie Plate
+          Soufflé Caramels Jujubes
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -86,31 +86,31 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Chef's selection of pickled items, veggies and dips served with pita
+        Pudding donut brownie candy canes liquorice topping apple pie lollipop
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Green Goddess Spinach Dip
+          Macaroon chocolate bar candy
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $9
+          $12
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Creamy avo spinach aserved with rye toast, pita and veggies
+        Cake toffee sugar plum powder. Gummies ice cream chupa chups pudding tootsie roll. Sugar plum pie biscuit
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          From the Butcher Block
+          Caramels Liquorice Sweet Biscuit
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -120,7 +120,7 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Chef's selection of meats, cheeses and homemade preserves served with flatbread crackers and crostinis
+        Cotton candy. Candy jelly cake lollipop icing cheesecake liquorice tiramisu. Caramels donut apple pie donut 
       </div>
     </div><!-- .menu-item -->
 
@@ -128,20 +128,20 @@
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          IPA Mac 'N Cheese
+          Tart Pastry Halvah
         </div>
         <div class="dotted-line">
           &nbsp;
         </div>
         <div class="item-price">
-          $8
+          $18
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Shells, beer cheese bechamel, parmesan, breadcrumbs, served with scallions. 
-        <br />add green chile/carmelized onions - $1
+        Cream. Ice cream tart tart cake donut jujubes powder jelly sugar plum. Pastry lemon drops  
+        <br />add carmelized bananna - $1
         <br />add bacon - $2
-        <br />add any protein - $3
+        <br />add any sugar - $3
 
       </div>
     </div><!-- .menu-item -->

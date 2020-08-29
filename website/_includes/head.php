@@ -16,18 +16,18 @@
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="expires" content="0">
 	
-	<title>Evergreen Brewery, Evergreen, Colorado Brewery &amp; Taphouse</title>
+	<title>Evergreen Web Design - Fluid Design | Flawless Function</title>
 	<link rel="icon" type="image/ico" href="_images/favicon.ico">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<meta name="description" content="Evergreen Brewery in Evergreen, Colorado - Local hand crafted beer & artisan cuisine.">
+	<meta name="description" content="Evergreen Web Design">
 	<meta name="format-detection" content="telephone=no">
 
 	<meta property="og:url" content="https://www.evergreenbrewery.com" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Evergreen Brewery, Evergreen, Colorado Brewery &amp; Taphouse" />
+	<meta property="og:title" content="Evergreen Web Design" />
 	<meta property="og:image" content="https://www.evergreenbrewery.com/_images/thumbnails/Evergreen-Brewery-badge.png" />
-	<meta property="og:image:alt" content="Evergreen Brewery logo" />
-	<meta property="og:description" content="Evergreen Brewery in Evergreen, Colorado - Local hand crafted beer & artisan cuisine." />
+	<meta property="og:image:alt" content="Steal Your Face" />
+	<meta property="og:description" content="Evergreen Web Design" />
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<link href='https://fonts.googleapis.com/css?family=Muli:400,400i|Lora:400,400i' rel='stylesheet' type='text/css'>

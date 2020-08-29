@@ -1313,22 +1313,33 @@ a.loc:active {
   margin: 0 auto;
   border: 1px solid #fff;
 }
-#social #social-container #social-format #instagram-block {
+#social #social-container #social-format #twitter-block {
   float: right;
   text-align: center;
   width: 50%;
 }
-#social #social-container #social-format #instagram-block p {
+#social #social-container #social-format #twitter-block #twitter {
+  max-height: 502px;
+  margin: 0 10px 0 0;
+  overflow-y: scroll;
+}
+#social #social-container #social-format #twitter-block p {
   color: #fff;
   line-height: 2em;
 }
-#social #social-container #social-format #instagram-block #pixlee_container {
+#social #social-container #social-format #twitter-block #pixlee_container {
   width: 100%;
   max-width: 500px;
   max-height: 502px;
   margin: 0 auto;
   overflow-y: scroll;
   border: 1px solid #fff;
+}
+
+.timeline-widget {
+  margin: 0 10px;
+  max-height: 500px;
+  overflow-y: scroll;
 }
 
 img.social-img {
@@ -1350,7 +1361,7 @@ img.social-img {
     float: none;
     margin: 0 auto;
   }
-  #social #social-container #social-format #instagram-block {
+  #social #social-container #social-format #twitter-block {
     width: 100%;
     float: none;
     margin: 40px auto 0;
@@ -1362,6 +1373,95 @@ img.social-img {
     background-size: auto 100%;
     background-attachment: scroll;
     min-height: 100vh;
+  }
+}
+#greeting {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  background: #222;
+  background: #0e4f7c;
+  width: 100%;
+  color: #fff;
+  padding: 80px 15px;
+  position: relative;
+  box-sizing: border-box;
+}
+#greeting h1 {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 2em;
+}
+#greeting h2 {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 0.5em;
+}
+#greeting #greeting-container {
+  position: relative;
+  width: 100%;
+  max-width: 1100px;
+  column-count: 2;
+  column-gap: 2em;
+  margin: 2em auto;
+  padding: 2em;
+  border-radius: 12px;
+}
+#greeting #greeting-container #facebook-container {
+  float: left;
+  max-width: 500px;
+  margin: 0px 20px 0px 0px;
+  border: 1px solid #fff;
+  box-shadow: -6px 6px 15px -6px rgba(0, 0, 0, 0.75);
+}
+#greeting #greeting-container #instagram-block {
+  float: right;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+#greeting #greeting-container #instagram-block #instagram-container {
+  width: 100%;
+  max-width: 500px;
+  height: 502px;
+  overflow-y: scroll;
+  border: 1px solid #fff;
+}
+#greeting #greeting-container p {
+  margin-bottom: 1em;
+  line-height: 1.4em;
+}
+
+@media screen and (max-width: 760px) {
+  #greeting #greeting-container {
+    column-count: 1;
+  }
+}
+@media screen and (max-width: 1100px) {
+  div#greeting #greeting-container #facebook-block {
+    float: none;
+    display: inline-block;
+    max-width: 100%;
+    margin: 0 auto 30px auto;
+  }
+  div#greeting #greeting-container #facebook-block #facebook-container {
+    margin: 0 auto;
+  }
+  div#greeting #greeting-container #instagram-block {
+    float: none;
+    display: inline-block;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  div#greeting #greeting-container #instagram-block #instagram-container {
+    margin: 0 auto;
   }
 }
 #menu-container > div > div > div.menu-nav.ut-row.divider-color > div > div.menu-list > div:nth-child(even) > a {

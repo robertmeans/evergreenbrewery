@@ -1,12 +1,12 @@
 <section class="menu-section">
   <h2 itemprop="servesCuisine">Sandwiches</h2>
-  <p class="section-sub">All served with a house made dill pickle and kettle chips - Substitute Soup or Super Slaw: +$3</p>
+  <p class="section-sub">Everybody's happy bocconcini cheddar swiss. Cheese and biscuits cheddar - Substitute Barley or Venison Broth: +$3</p>
   <div class="section-items">
     
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Cuban
+          Bavarian Bergkase Jarlsberg
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -16,14 +16,14 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Slow roasted pork, smoked ham, genoa salami and melted cheese. Topped with pickles, our house made mustard, lime juice reduction, served on french bread
+        Halloumi queso bavarian bergkase halloumi camembert de normandie cheese and wine jack bavarian bergkase. Rubber cheese cheese triangles caerphilly halloumi roquefort
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          F.A.B. Turkey Club
+          Port-Salut Bocconcini Cheese
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -33,14 +33,14 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Turkey roasted in our F.A.B. Lager, thick cut bacon, cucumber, roasted red pepper cream cheese, tomato, lettuce and sprouts served on 7 grain
+        Mascarpone monterey jack bocconcini cauliflower cheese. Halloumi queso bavarian bergkase
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          The Italian
+          Camembert de Normandie
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -50,14 +50,14 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Capicola, pepperoni, salami, provolone, tangy mustard, giardiniera and shredded lettuce tossed in vinagrette, served hot or cold on a roll
+        Ricotta when the cheese comes out everybody's happy say cheese feta queso manchego stinking bishop jarlsberg. Emmental roquefort brie
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Rachel
+          Babybel Say Cheese Manchego
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -67,14 +67,14 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Hot turkey, swiss, house cole slaw, russian dressing served toasted on marbled rye
+        Camembert de normandie mozzarella taleggio. Cheese triangles mozzarella pecorino
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Sour Apple Whiskey Reuben
+          Fondue St Agur 
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -84,14 +84,14 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Corned beef, melted swiss cheese, whiskey apple sauerkraut and our house-made Smokey 1000 Island Dressing served on marble rye
+        Blue cheese pecorino. Camembert de normandie cauliflower cheese cheese strings cottage cheese taleggio cheese
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Rasberhot Grilled Cheese
+          Parmesan Brie Port-Salut
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -101,14 +101,14 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Smoked ham, melted swiss and American cheese, topped with tomato, grilled onions, and our house-made raspberry fresno jam on sourdough
+        Monsieur mascarpone cheese and biscuits cheese and wine swiss cream cheese boursin. Cow
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Turkey Bacon Ranch
+          de Normandie Mozzarella Taleggio
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -118,14 +118,14 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Hot smoked turkey, crispy bacon, sharp cheddar cheese and buttermilk ranch
+        Cheesecake gouda cheese on toast cottage cheese mascarpone blue castello macaroni cheese brie
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Colorado Dip
+          Stinking Bishop Jarlsberg
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -135,14 +135,14 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Roast beef, melted swiss and provolone cheese, topped with grilled onions and garlic aioli - Comes with side of au jus
+        Halloumi queso bavarian bergkase halloumi camembert de normandie cheese and wine cheesecake halloumi
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Pho'cked up French Dip
+          Cheese &amp; Biscuits
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -152,14 +152,14 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Roast beef topped with fresh onions, jalapeno, cilantro, basil, sriracha and hoisin sauce, served with hot pho broth
+        Everybody's happy say cheese feta queso manchego stinking bishop jarlsberg
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Peach Bourbon Pulled Pork Sandwich
+          Bocconcini Croque
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -169,14 +169,14 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Slow roasted pork tossed in a tangy bourbon peach bbq sauce topped with a cilantro lime slaw served on brioche
+        Cheesecake ricotta everyone loves cheese slices who moved my cheese gouda boursin. Paneer who moved my cheese chalk
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Notorious BLT
+          Wine Cauliflower
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -186,14 +186,14 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Applewood smoked bacon, Dukes Mayo, super summer slaw, barrel aged gastrique served on sourdough (contains nuts)
+        Halloumi melted cheese. Cheese on toast taleggio blue castello stinking bishop cheesy grin pecorino monterey jack
       </div>
     </div><!-- .menu-item -->
 
     <div class="menu-item">
       <div class="menu-price-row">
         <div itemprop="name" class="item-name">
-          Veg Head
+          Cheesy Grin
         </div>
         <div class="dotted-line">
           &nbsp;
@@ -203,7 +203,7 @@
         </div>
       </div><!-- .menu-price-row -->
       <div itemprop="description" class="item-description">
-        Roasted red peppers, grilled onions, cucumber, spinach and provolone cheese, topped with spinach artichoke dip and a balsamic reduction, served on rosemary ciabatta
+        Ricotta everyone loves cheese slices who moved my cheese gouda boursin. Paneer who moved my cheese chalk and cheese lancashire airedale edam manchego
       </div>
     </div><!-- .menu-item -->
 
